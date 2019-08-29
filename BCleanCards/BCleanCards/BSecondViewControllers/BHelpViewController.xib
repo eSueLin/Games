@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BHelpViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cj_help" translatesAutoresizingMaskIntoConstraints="NO" id="KiE-8h-QRp">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9CG-BG-QPC">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="di_help" translatesAutoresizingMaskIntoConstraints="NO" id="IfX-6G-CeX">
+                    <rect key="frame" x="14" y="21.5" width="347" height="462"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="IfX-6G-CeX" secondAttribute="height" multiplier="347:462" id="dZE-S1-doj"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Connect-three-or-more-CARDSof-the--same-type-or-Straight-elimin" translatesAutoresizingMaskIntoConstraints="NO" id="93l-nC-7Uv">
+                    <rect key="frame" x="19" y="491.5" width="337" height="102"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="93l-nC-7Uv" secondAttribute="height" multiplier="337:102" id="qZe-Hf-gC6"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4I-Nx-FfP">
+                    <rect key="frame" x="125.5" y="597" width="124" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="b4I-Nx-FfP" secondAttribute="height" multiplier="62:25" id="fb3-or-pUu"/>
+                    </constraints>
+                    <state key="normal" image="blck-"/>
+                    <connections>
+                        <action selector="backtoHome:" destination="-1" eventType="touchUpInside" id="bjM-Aq-WVe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="IfX-6G-CeX" secondAttribute="bottom" multiplier="1.38" id="15T-g9-Jo6"/>
+                <constraint firstItem="9CG-BG-QPC" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="8oi-aa-hMO"/>
+                <constraint firstItem="9CG-BG-QPC" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="AlT-GH-pCN"/>
+                <constraint firstItem="93l-nC-7Uv" firstAttribute="top" secondItem="IfX-6G-CeX" secondAttribute="bottom" constant="8" id="B4r-WV-vmr"/>
+                <constraint firstItem="KiE-8h-QRp" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="G4g-PC-J1n"/>
+                <constraint firstItem="93l-nC-7Uv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KKc-AT-0TU"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="b4I-Nx-FfP" secondAttribute="bottom" constant="20" id="LIY-OW-fX1"/>
+                <constraint firstItem="IfX-6G-CeX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="S6J-ey-ClI"/>
+                <constraint firstItem="KiE-8h-QRp" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="STk-Ls-3LD"/>
+                <constraint firstItem="9CG-BG-QPC" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="aKc-U7-JWR"/>
+                <constraint firstItem="9CG-BG-QPC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bcV-k0-Kjw"/>
+                <constraint firstItem="b4I-Nx-FfP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ghR-ON-fSf"/>
+                <constraint firstItem="KiE-8h-QRp" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="njY-os-xDs"/>
+                <constraint firstItem="KiE-8h-QRp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="x3b-bj-0RC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Connect-three-or-more-CARDSof-the--same-type-or-Straight-elimin" width="337" height="102.5"/>
+        <image name="blck-" width="124.5" height="50"/>
+        <image name="cj_help" width="375" height="667"/>
+        <image name="di_help" width="347" height="462.5"/>
+    </resources>
+</document>

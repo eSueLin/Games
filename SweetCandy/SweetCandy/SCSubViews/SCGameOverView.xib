@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SCGameOverView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SCGameOverView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frame_lose" translatesAutoresizingMaskIntoConstraints="NO" id="UOu-JL-Qaw">
+                    <rect key="frame" x="10.5" y="306.5" width="393" height="283"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="UOu-JL-Qaw" secondAttribute="height" multiplier="339:244" id="hoq-Sk-0gY"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="you_loese" translatesAutoresizingMaskIntoConstraints="NO" id="T2Y-Iv-iac">
+                    <rect key="frame" x="69.5" y="372" width="275" height="62.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="T2Y-Iv-iac" secondAttribute="height" multiplier="232:53" id="P5I-vk-XiE"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="L1" translatesAutoresizingMaskIntoConstraints="NO" id="vYJ-hP-GBl">
+                    <rect key="frame" x="152" y="435.5" width="110" height="30.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="vYJ-hP-GBl" secondAttribute="height" multiplier="76:21" id="4jg-oC-iht"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3j-O6-SJ7">
+                    <rect key="frame" x="120.5" y="494" width="52" height="23.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="O3j-O6-SJ7" secondAttribute="height" multiplier="109:49" id="VSM-Ju-Jeb"/>
+                    </constraints>
+                    <state key="normal" image="btn_home"/>
+                    <connections>
+                        <action selector="backtoHome:" destination="-1" eventType="touchUpInside" id="DbO-D2-ZWn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H72-eQ-5fZ">
+                    <rect key="frame" x="232" y="494" width="52" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="H72-eQ-5fZ" secondAttribute="height" multiplier="109:46" id="Ana-0k-6vj"/>
+                    </constraints>
+                    <state key="normal" image="btn_restart"/>
+                    <connections>
+                        <action selector="restartGame:" destination="-1" eventType="touchUpInside" id="jKr-if-Dyb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="H72-eQ-5fZ" firstAttribute="leading" secondItem="UOu-JL-Qaw" secondAttribute="centerX" multiplier="1.12" id="FfT-6H-jgs"/>
+                <constraint firstItem="UOu-JL-Qaw" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.95" id="HF8-tX-eON"/>
+                <constraint firstItem="H72-eQ-5fZ" firstAttribute="width" secondItem="O3j-O6-SJ7" secondAttribute="width" id="Lg5-5h-T25"/>
+                <constraint firstItem="T2Y-Iv-iac" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Now-0v-Imv"/>
+                <constraint firstItem="UOu-JL-Qaw" firstAttribute="centerX" secondItem="O3j-O6-SJ7" secondAttribute="trailing" multiplier="1.2" id="QdY-5m-Rn6"/>
+                <constraint firstItem="T2Y-Iv-iac" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.9" id="S1e-eD-pBS"/>
+                <constraint firstItem="vYJ-hP-GBl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="WKE-1g-gSS"/>
+                <constraint firstItem="O3j-O6-SJ7" firstAttribute="top" secondItem="vYJ-hP-GBl" secondAttribute="bottom" multiplier="1.06" id="ZHK-NK-49v"/>
+                <constraint firstItem="vYJ-hP-GBl" firstAttribute="width" secondItem="T2Y-Iv-iac" secondAttribute="width" multiplier="0.4" id="d43-Ox-xdc"/>
+                <constraint firstItem="UOu-JL-Qaw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gBx-fB-uoE"/>
+                <constraint firstItem="T2Y-Iv-iac" firstAttribute="width" secondItem="UOu-JL-Qaw" secondAttribute="width" multiplier="0.7" id="oAU-Iq-mAE"/>
+                <constraint firstItem="UOu-JL-Qaw" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qrA-ur-Ahd"/>
+                <constraint firstItem="H72-eQ-5fZ" firstAttribute="top" secondItem="O3j-O6-SJ7" secondAttribute="top" id="trH-Lo-u5F"/>
+                <constraint firstItem="vYJ-hP-GBl" firstAttribute="top" secondItem="T2Y-Iv-iac" secondAttribute="bottom" constant="1" id="wzy-N0-lDc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="levelImageView" destination="vYJ-hP-GBl" id="jlg-m9-ThW"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="L1" width="76" height="21.5"/>
+        <image name="btn_home" width="109" height="48.5"/>
+        <image name="btn_restart" width="107" height="45.5"/>
+        <image name="frame_lose" width="339" height="244"/>
+        <image name="you_loese" width="232.5" height="53"/>
+    </resources>
+</document>

@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61EB1FC229FE04F00AB72F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB1FB229FE04F00AB72F1 /* AppDelegate.m */; };
+		A61EB1FF229FE04F00AB72F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB1FE229FE04F00AB72F1 /* ViewController.m */; };
+		A61EB202229FE04F00AB72F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61EB200229FE04F00AB72F1 /* Main.storyboard */; };
+		A61EB204229FE05300AB72F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61EB203229FE05300AB72F1 /* Assets.xcassets */; };
+		A61EB207229FE05300AB72F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61EB205229FE05300AB72F1 /* LaunchScreen.storyboard */; };
+		A61EB20A229FE05300AB72F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB209229FE05300AB72F1 /* main.m */; };
+		A61EB214229FE05300AB72F1 /* SweetCandyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB213229FE05300AB72F1 /* SweetCandyTests.m */; };
+		A61EB21F229FE05300AB72F1 /* SweetCandyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB21E229FE05300AB72F1 /* SweetCandyUITests.m */; };
+		A61EB236229FE0ED00AB72F1 /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB233229FE0EC00AB72F1 /* SCHomeViewController.m */; };
+		A61EB237229FE0ED00AB72F1 /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61EB234229FE0EC00AB72F1 /* SCHomeViewController.xib */; };
+		A61EB23C229FE13E00AB72F1 /* SCGameBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB23B229FE13E00AB72F1 /* SCGameBottomView.m */; };
+		A61EB23E229FE17E00AB72F1 /* SCGameBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61EB23D229FE17E00AB72F1 /* SCGameBottomView.xib */; };
+		A61F582F22A0FC3E00C72894 /* SCGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61F582D22A0FC3E00C72894 /* SCGameViewController.m */; };
+		A61F583022A0FC3E00C72894 /* SCGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61F582E22A0FC3E00C72894 /* SCGameViewController.xib */; };
+		A61F583422A1077700C72894 /* SCBasicShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61F583322A1077700C72894 /* SCBasicShadowView.m */; };
+		A61F583722A10BB400C72894 /* SCHomeHelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61F583622A10BB400C72894 /* SCHomeHelpView.m */; };
+		A61F583922A10BCB00C72894 /* SCHomeHelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61F583822A10BCB00C72894 /* SCHomeHelpView.xib */; };
+		A61F583C22A118B600C72894 /* SCGamePassView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61F583B22A118B600C72894 /* SCGamePassView.m */; };
+		A61F583E22A118C400C72894 /* SCGamePassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61F583D22A118C400C72894 /* SCGamePassView.xib */; };
+		A641A20522A4CA4E0093EF6D /* SCFirstGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A641A20422A4CA4E0093EF6D /* SCFirstGameView.m */; };
+		A641A20822A4CA850093EF6D /* SCGameAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = A641A20722A4CA850093EF6D /* SCGameAreaView.m */; };
+		A641A20C22A4CF320093EF6D /* UIImageView+More.m in Sources */ = {isa = PBXBuildFile; fileRef = A641A20A22A4CF320093EF6D /* UIImageView+More.m */; };
+		A641A21122A4CF4A0093EF6D /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A641A20D22A4CF4A0093EF6D /* UIView+Additions.m */; };
+		A641A21222A4CF4A0093EF6D /* UIButton+ExpandHotZone.m in Sources */ = {isa = PBXBuildFile; fileRef = A641A20F22A4CF4A0093EF6D /* UIButton+ExpandHotZone.m */; };
+		A641A21622A4D38D0093EF6D /* HLCheckersRules.m in Sources */ = {isa = PBXBuildFile; fileRef = A641A21522A4D38D0093EF6D /* HLCheckersRules.m */; };
+		A641A25322A67A340093EF6D /* SCGameOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = A641A25222A67A340093EF6D /* SCGameOverView.m */; };
+		A641A25722A67A5C0093EF6D /* SCGameOverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A641A25622A67A5C0093EF6D /* SCGameOverView.xib */; };
+		A641A25A22A76B530093EF6D /* CandyConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A641A25922A76B530093EF6D /* CandyConfig.plist */; };
+		A641A25D22A7C67A0093EF6D /* SCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A641A25C22A7C67A0093EF6D /* SCTimer.m */; };
+		A641A26022A8C6C00093EF6D /* SCTimerUsedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A641A25F22A8C6C00093EF6D /* SCTimerUsedStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A61EB210229FE05300AB72F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A61EB1EF229FE04F00AB72F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61EB1F6229FE04F00AB72F1;
+			remoteInfo = SweetCandy;
+		};
+		A61EB21B229FE05300AB72F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A61EB1EF229FE04F00AB72F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61EB1F6229FE04F00AB72F1;
+			remoteInfo = SweetCandy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A61EB1F7229FE04F00AB72F1 /* SweetCandy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetCandy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61EB1FA229FE04F00AB72F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A61EB1FB229FE04F00AB72F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A61EB1FD229FE04F00AB72F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A61EB1FE229FE04F00AB72F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A61EB201229FE04F00AB72F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A61EB203229FE05300AB72F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A61EB206229FE05300AB72F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A61EB208229FE05300AB72F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61EB209229FE05300AB72F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A61EB20F229FE05300AB72F1 /* SweetCandyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetCandyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61EB213229FE05300AB72F1 /* SweetCandyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SweetCandyTests.m; sourceTree = "<group>"; };
+		A61EB215229FE05300AB72F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61EB21A229FE05300AB72F1 /* SweetCandyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetCandyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61EB21E229FE05300AB72F1 /* SweetCandyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SweetCandyUITests.m; sourceTree = "<group>"; };
+		A61EB220229FE05300AB72F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61EB233229FE0EC00AB72F1 /* SCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHomeViewController.m; sourceTree = "<group>"; };
+		A61EB234229FE0EC00AB72F1 /* SCHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCHomeViewController.xib; sourceTree = "<group>"; };
+		A61EB235229FE0EC00AB72F1 /* SCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHomeViewController.h; sourceTree = "<group>"; };
+		A61EB23A229FE13E00AB72F1 /* SCGameBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCGameBottomView.h; sourceTree = "<group>"; };
+		A61EB23B229FE13E00AB72F1 /* SCGameBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCGameBottomView.m; sourceTree = "<group>"; };
+		A61EB23D229FE17E00AB72F1 /* SCGameBottomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCGameBottomView.xib; sourceTree = "<group>"; };
+		A61F582C22A0FC3E00C72894 /* SCGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCGameViewController.h; sourceTree = "<group>"; };
+		A61F582D22A0FC3E00C72894 /* SCGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCGameViewController.m; sourceTree = "<group>"; };
+		A61F582E22A0FC3E00C72894 /* SCGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCGameViewController.xib; sourceTree = "<group>"; };
+		A61F583222A1077700C72894 /* SCBasicShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBasicShadowView.h; sourceTree = "<group>"; };
+		A61F583322A1077700C72894 /* SCBasicShadowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBasicShadowView.m; sourceTree = "<group>"; };
+		A61F583522A10BB400C72894 /* SCHomeHelpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHomeHelpView.h; sourceTree = "<group>"; };
+		A61F583622A10BB400C72894 /* SCHomeHelpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHomeHelpView.m; sourceTree = "<group>"; };
+		A61F583822A10BCB00C72894 /* SCHomeHelpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCHomeHelpView.xib; sourceTree = "<group>"; };
+		A61F583A22A118B600C72894 /* SCGamePassView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCGamePassView.h; sourceTree = "<group>"; };
+		A61F583B22A118B600C72894 /* SCGamePassView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCGamePassView.m; sourceTree = "<group>"; };
+		A61F583D22A118C400C72894 /* SCGamePassView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCGamePassView.xib; sourceTree = "<group>"; };
+		A641A20322A4CA4E0093EF6D /* SCFirstGameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFirstGameView.h; sourceTree = "<group>"; };
+		A641A20422A4CA4E0093EF6D /* SCFirstGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFirstGameView.m; sourceTree = "<group>"; };
+		A641A20622A4CA850093EF6D /* SCGameAreaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCGameAreaView.h; sourceTree = "<group>"; };
+		A641A20722A4CA850093EF6D /* SCGameAreaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCGameAreaView.m; sourceTree = "<group>"; };
+		A641A20A22A4CF320093EF6D /* UIImageView+More.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+More.m"; sourceTree = "<group>"; };
+		A641A20B22A4CF320093EF6D /* UIImageView+More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+More.h"; sourceTree = "<group>"; };
+		A641A20D22A4CF4A0093EF6D /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		A641A20E22A4CF4A0093EF6D /* UIButton+ExpandHotZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ExpandHotZone.h"; sourceTree = "<group>"; };
+		A641A20F22A4CF4A0093EF6D /* UIButton+ExpandHotZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ExpandHotZone.m"; sourceTree = "<group>"; };
+		A641A21022A4CF4A0093EF6D /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		A641A21322A4D0AE0093EF6D /* SCHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHeaders.h; sourceTree = "<group>"; };
+		A641A21422A4D38D0093EF6D /* HLCheckersRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCheckersRules.h; sourceTree = "<group>"; };
+		A641A21522A4D38D0093EF6D /* HLCheckersRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCheckersRules.m; sourceTree = "<group>"; };
+		A641A25122A67A340093EF6D /* SCGameOverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCGameOverView.h; sourceTree = "<group>"; };
+		A641A25222A67A340093EF6D /* SCGameOverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCGameOverView.m; sourceTree = "<group>"; };
+		A641A25622A67A5C0093EF6D /* SCGameOverView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCGameOverView.xib; sourceTree = "<group>"; };
+		A641A25922A76B530093EF6D /* CandyConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CandyConfig.plist; sourceTree = "<group>"; };
+		A641A25B22A7C67A0093EF6D /* SCTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTimer.h; sourceTree = "<group>"; };
+		A641A25C22A7C67A0093EF6D /* SCTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTimer.m; sourceTree = "<group>"; };
+		A641A25E22A8C6C00093EF6D /* SCTimerUsedStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTimerUsedStore.h; sourceTree = "<group>"; };
+		A641A25F22A8C6C00093EF6D /* SCTimerUsedStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTimerUsedStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61EB1F4229FE04F00AB72F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB20C229FE05300AB72F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB217229FE05300AB72F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61EB1EE229FE04F00AB72F1 = {
+			isa = PBXGroup;
+			children = (
+				A61EB1F9229FE04F00AB72F1 /* SweetCandy */,
+				A61EB212229FE05300AB72F1 /* SweetCandyTests */,
+				A61EB21D229FE05300AB72F1 /* SweetCandyUITests */,
+				A61EB1F8229FE04F00AB72F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61EB1F8229FE04F00AB72F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61EB1F7229FE04F00AB72F1 /* SweetCandy.app */,
+				A61EB20F229FE05300AB72F1 /* SweetCandyTests.xctest */,
+				A61EB21A229FE05300AB72F1 /* SweetCandyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61EB1F9229FE04F00AB72F1 /* SweetCandy */ = {
+			isa = PBXGroup;
+			children = (
+				A641A20922A4CF220093EF6D /* SCTool */,
+				A61EB232229FE0EC00AB72F1 /* SCViewControllers */,
+				A61EB239229FE12100AB72F1 /* SCSubViews */,
+				A61EB1FA229FE04F00AB72F1 /* AppDelegate.h */,
+				A61EB1FB229FE04F00AB72F1 /* AppDelegate.m */,
+				A61EB1FD229FE04F00AB72F1 /* ViewController.h */,
+				A61EB1FE229FE04F00AB72F1 /* ViewController.m */,
+				A61EB200229FE04F00AB72F1 /* Main.storyboard */,
+				A61EB203229FE05300AB72F1 /* Assets.xcassets */,
+				A61EB205229FE05300AB72F1 /* LaunchScreen.storyboard */,
+				A61EB208229FE05300AB72F1 /* Info.plist */,
+				A641A25922A76B530093EF6D /* CandyConfig.plist */,
+				A61EB209229FE05300AB72F1 /* main.m */,
+			);
+			path = SweetCandy;
+			sourceTree = "<group>";
+		};
+		A61EB212229FE05300AB72F1 /* SweetCandyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A61EB213229FE05300AB72F1 /* SweetCandyTests.m */,
+				A61EB215229FE05300AB72F1 /* Info.plist */,
+			);
+			path = SweetCandyTests;
+			sourceTree = "<group>";
+		};
+		A61EB21D229FE05300AB72F1 /* SweetCandyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A61EB21E229FE05300AB72F1 /* SweetCandyUITests.m */,
+				A61EB220229FE05300AB72F1 /* Info.plist */,
+			);
+			path = SweetCandyUITests;
+			sourceTree = "<group>";
+		};
+		A61EB232229FE0EC00AB72F1 /* SCViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A61EB235229FE0EC00AB72F1 /* SCHomeViewController.h */,
+				A61EB233229FE0EC00AB72F1 /* SCHomeViewController.m */,
+				A61EB234229FE0EC00AB72F1 /* SCHomeViewController.xib */,
+				A61F582C22A0FC3E00C72894 /* SCGameViewController.h */,
+				A61F582D22A0FC3E00C72894 /* SCGameViewController.m */,
+				A61F582E22A0FC3E00C72894 /* SCGameViewController.xib */,
+			);
+			path = SCViewControllers;
+			sourceTree = "<group>";
+		};
+		A61EB239229FE12100AB72F1 /* SCSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				A641A20222A4CA160093EF6D /* SCGameAreaViews */,
+				A61F583122A0FD4D00C72894 /* SCBasicShadowView */,
+				A61EB23A229FE13E00AB72F1 /* SCGameBottomView.h */,
+				A61EB23B229FE13E00AB72F1 /* SCGameBottomView.m */,
+				A61EB23D229FE17E00AB72F1 /* SCGameBottomView.xib */,
+				A61F583522A10BB400C72894 /* SCHomeHelpView.h */,
+				A61F583622A10BB400C72894 /* SCHomeHelpView.m */,
+				A61F583822A10BCB00C72894 /* SCHomeHelpView.xib */,
+				A61F583A22A118B600C72894 /* SCGamePassView.h */,
+				A61F583B22A118B600C72894 /* SCGamePassView.m */,
+				A61F583D22A118C400C72894 /* SCGamePassView.xib */,
+				A641A25122A67A340093EF6D /* SCGameOverView.h */,
+				A641A25222A67A340093EF6D /* SCGameOverView.m */,
+				A641A25622A67A5C0093EF6D /* SCGameOverView.xib */,
+			);
+			path = SCSubViews;
+			sourceTree = "<group>";
+		};
+		A61F583122A0FD4D00C72894 /* SCBasicShadowView */ = {
+			isa = PBXGroup;
+			children = (
+				A61F583222A1077700C72894 /* SCBasicShadowView.h */,
+				A61F583322A1077700C72894 /* SCBasicShadowView.m */,
+			);
+			path = SCBasicShadowView;
+			sourceTree = "<group>";
+		};
+		A641A20222A4CA160093EF6D /* SCGameAreaViews */ = {
+			isa = PBXGroup;
+			children = (
+				A641A20322A4CA4E0093EF6D /* SCFirstGameView.h */,
+				A641A20422A4CA4E0093EF6D /* SCFirstGameView.m */,
+				A641A20622A4CA850093EF6D /* SCGameAreaView.h */,
+				A641A20722A4CA850093EF6D /* SCGameAreaView.m */,
+			);
+			path = SCGameAreaViews;
+			sourceTree = "<group>";
+		};
+		A641A20922A4CF220093EF6D /* SCTool */ = {
+			isa = PBXGroup;
+			children = (
+				A641A20B22A4CF320093EF6D /* UIImageView+More.h */,
+				A641A20A22A4CF320093EF6D /* UIImageView+More.m */,
+				A641A20E22A4CF4A0093EF6D /* UIButton+ExpandHotZone.h */,
+				A641A20F22A4CF4A0093EF6D /* UIButton+ExpandHotZone.m */,
+				A641A21022A4CF4A0093EF6D /* UIView+Additions.h */,
+				A641A20D22A4CF4A0093EF6D /* UIView+Additions.m */,
+				A641A21422A4D38D0093EF6D /* HLCheckersRules.h */,
+				A641A21522A4D38D0093EF6D /* HLCheckersRules.m */,
+				A641A21322A4D0AE0093EF6D /* SCHeaders.h */,
+				A641A25B22A7C67A0093EF6D /* SCTimer.h */,
+				A641A25C22A7C67A0093EF6D /* SCTimer.m */,
+				A641A25E22A8C6C00093EF6D /* SCTimerUsedStore.h */,
+				A641A25F22A8C6C00093EF6D /* SCTimerUsedStore.m */,
+			);
+			path = SCTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61EB1F6229FE04F00AB72F1 /* SweetCandy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61EB223229FE05300AB72F1 /* Build configuration list for PBXNativeTarget "SweetCandy" */;
+			buildPhases = (
+				A61EB1F3229FE04F00AB72F1 /* Sources */,
+				A61EB1F4229FE04F00AB72F1 /* Frameworks */,
+				A61EB1F5229FE04F00AB72F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetCandy;
+			productName = SweetCandy;
+			productReference = A61EB1F7229FE04F00AB72F1 /* SweetCandy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A61EB20E229FE05300AB72F1 /* SweetCandyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61EB226229FE05300AB72F1 /* Build configuration list for PBXNativeTarget "SweetCandyTests" */;
+			buildPhases = (
+				A61EB20B229FE05300AB72F1 /* Sources */,
+				A61EB20C229FE05300AB72F1 /* Frameworks */,
+				A61EB20D229FE05300AB72F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61EB211229FE05300AB72F1 /* PBXTargetDependency */,
+			);
+			name = SweetCandyTests;
+			productName = SweetCandyTests;
+			productReference = A61EB20F229FE05300AB72F1 /* SweetCandyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A61EB219229FE05300AB72F1 /* SweetCandyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61EB229229FE05300AB72F1 /* Build configuration list for PBXNativeTarget "SweetCandyUITests" */;
+			buildPhases = (
+				A61EB216229FE05300AB72F1 /* Sources */,
+				A61EB217229FE05300AB72F1 /* Frameworks */,
+				A61EB218229FE05300AB72F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61EB21C229FE05300AB72F1 /* PBXTargetDependency */,
+			);
+			name = SweetCandyUITests;
+			productName = SweetCandyUITests;
+			productReference = A61EB21A229FE05300AB72F1 /* SweetCandyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61EB1EF229FE04F00AB72F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = SweetCandy;
+				TargetAttributes = {
+					A61EB1F6229FE04F00AB72F1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A61EB20E229FE05300AB72F1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A61EB1F6229FE04F00AB72F1;
+					};
+					A61EB219229FE05300AB72F1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A61EB1F6229FE04F00AB72F1;
+					};
+				};
+			};
+			buildConfigurationList = A61EB1F2229FE04F00AB72F1 /* Build configuration list for PBXProject "SweetCandy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A61EB1EE229FE04F00AB72F1;
+			productRefGroup = A61EB1F8229FE04F00AB72F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61EB1F6229FE04F00AB72F1 /* SweetCandy */,
+				A61EB20E229FE05300AB72F1 /* SweetCandyTests */,
+				A61EB219229FE05300AB72F1 /* SweetCandyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61EB1F5229FE04F00AB72F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61F583022A0FC3E00C72894 /* SCGameViewController.xib in Resources */,
+				A61F583922A10BCB00C72894 /* SCHomeHelpView.xib in Resources */,
+				A61EB207229FE05300AB72F1 /* LaunchScreen.storyboard in Resources */,
+				A61EB23E229FE17E00AB72F1 /* SCGameBottomView.xib in Resources */,
+				A641A25A22A76B530093EF6D /* CandyConfig.plist in Resources */,
+				A61EB204229FE05300AB72F1 /* Assets.xcassets in Resources */,
+				A61F583E22A118C400C72894 /* SCGamePassView.xib in Resources */,
+				A61EB202229FE04F00AB72F1 /* Main.storyboard in Resources */,
+				A641A25722A67A5C0093EF6D /* SCGameOverView.xib in Resources */,
+				A61EB237229FE0ED00AB72F1 /* SCHomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB20D229FE05300AB72F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB218229FE05300AB72F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61EB1F3229FE04F00AB72F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A641A20822A4CA850093EF6D /* SCGameAreaView.m in Sources */,
+				A641A21622A4D38D0093EF6D /* HLCheckersRules.m in Sources */,
+				A641A25D22A7C67A0093EF6D /* SCTimer.m in Sources */,
+				A641A25322A67A340093EF6D /* SCGameOverView.m in Sources */,
+				A61EB1FF229FE04F00AB72F1 /* ViewController.m in Sources */,
+				A61F583422A1077700C72894 /* SCBasicShadowView.m in Sources */,
+				A61EB20A229FE05300AB72F1 /* main.m in Sources */,
+				A641A20522A4CA4E0093EF6D /* SCFirstGameView.m in Sources */,
+				A641A26022A8C6C00093EF6D /* SCTimerUsedStore.m in Sources */,
+				A61F582F22A0FC3E00C72894 /* SCGameViewController.m in Sources */,
+				A61EB1FC229FE04F00AB72F1 /* AppDelegate.m in Sources */,
+				A61EB236229FE0ED00AB72F1 /* SCHomeViewController.m in Sources */,
+				A61F583722A10BB400C72894 /* SCHomeHelpView.m in Sources */,
+				A641A21222A4CF4A0093EF6D /* UIButton+ExpandHotZone.m in Sources */,
+				A61F583C22A118B600C72894 /* SCGamePassView.m in Sources */,
+				A61EB23C229FE13E00AB72F1 /* SCGameBottomView.m in Sources */,
+				A641A20C22A4CF320093EF6D /* UIImageView+More.m in Sources */,
+				A641A21122A4CF4A0093EF6D /* UIView+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB20B229FE05300AB72F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61EB214229FE05300AB72F1 /* SweetCandyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB216229FE05300AB72F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61EB21F229FE05300AB72F1 /* SweetCandyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A61EB211229FE05300AB72F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61EB1F6229FE04F00AB72F1 /* SweetCandy */;
+			targetProxy = A61EB210229FE05300AB72F1 /* PBXContainerItemProxy */;
+		};
+		A61EB21C229FE05300AB72F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61EB1F6229FE04F00AB72F1 /* SweetCandy */;
+			targetProxy = A61EB21B229FE05300AB72F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A61EB200229FE04F00AB72F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61EB201229FE04F00AB72F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A61EB205229FE05300AB72F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61EB206229FE05300AB72F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A61EB221229FE05300AB72F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A61EB222229FE05300AB72F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61EB224229FE05300AB72F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6R78ZWPT5;
+				INFOPLIST_FILE = SweetCandy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blairy.sweetcandy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A61EB225229FE05300AB72F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6R78ZWPT5;
+				INFOPLIST_FILE = SweetCandy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blairy.sweetcandy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A61EB227229FE05300AB72F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SweetCandyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blair.SweetCandyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetCandy.app/SweetCandy";
+			};
+			name = Debug;
+		};
+		A61EB228229FE05300AB72F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SweetCandyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blair.SweetCandyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetCandy.app/SweetCandy";
+			};
+			name = Release;
+		};
+		A61EB22A229FE05300AB72F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SweetCandyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blair.SweetCandyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SweetCandy;
+			};
+			name = Debug;
+		};
+		A61EB22B229FE05300AB72F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SweetCandyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blair.SweetCandyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SweetCandy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61EB1F2229FE04F00AB72F1 /* Build configuration list for PBXProject "SweetCandy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61EB221229FE05300AB72F1 /* Debug */,
+				A61EB222229FE05300AB72F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61EB223229FE05300AB72F1 /* Build configuration list for PBXNativeTarget "SweetCandy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61EB224229FE05300AB72F1 /* Debug */,
+				A61EB225229FE05300AB72F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61EB226229FE05300AB72F1 /* Build configuration list for PBXNativeTarget "SweetCandyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61EB227229FE05300AB72F1 /* Debug */,
+				A61EB228229FE05300AB72F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61EB229229FE05300AB72F1 /* Build configuration list for PBXNativeTarget "SweetCandyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61EB22A229FE05300AB72F1 /* Debug */,
+				A61EB22B229FE05300AB72F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61EB1EF229FE04F00AB72F1 /* Project object */;
+}

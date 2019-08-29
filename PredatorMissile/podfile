@@ -1,0 +1,4 @@
+
+target 'PredatorMissile' do
+    pod 'AFNetworking', '~> 3.0.4'
+end

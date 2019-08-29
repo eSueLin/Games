@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A617268C22B0A601006FDE18 /* DCGameOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = A617268B22B0A601006FDE18 /* DCGameOverView.m */; };
+		A617268E22B0A60D006FDE18 /* DCGameOverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A617268D22B0A60D006FDE18 /* DCGameOverView.xib */; };
+		A617269622B0D6C5006FDE18 /* DCVoiceSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A617269522B0D6C5006FDE18 /* DCVoiceSettingView.m */; };
+		A617269822B0D6E8006FDE18 /* DCVoiceSettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A617269722B0D6E8006FDE18 /* DCVoiceSettingView.xib */; };
+		A61EB1022297DC6C00AB72F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB1012297DC6C00AB72F1 /* AppDelegate.m */; };
+		A61EB1052297DC6C00AB72F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB1042297DC6C00AB72F1 /* ViewController.m */; };
+		A61EB1082297DC6C00AB72F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61EB1062297DC6C00AB72F1 /* Main.storyboard */; };
+		A61EB10A2297DC6D00AB72F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61EB1092297DC6D00AB72F1 /* Assets.xcassets */; };
+		A61EB10D2297DC6D00AB72F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61EB10B2297DC6D00AB72F1 /* LaunchScreen.storyboard */; };
+		A61EB1102297DC6D00AB72F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB10F2297DC6D00AB72F1 /* main.m */; };
+		A61EB11A2297DC6D00AB72F1 /* DodgeCombatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB1192297DC6D00AB72F1 /* DodgeCombatTests.m */; };
+		A61EB1252297DC6D00AB72F1 /* DodgeCombatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB1242297DC6D00AB72F1 /* DodgeCombatUITests.m */; };
+		A61EB1342297DC9E00AB72F1 /* DCGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB1332297DC9E00AB72F1 /* DCGameView.m */; };
+		A61EB137229931C900AB72F1 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB136229931C900AB72F1 /* UIView+Additions.m */; };
+		A61EB13D229B7F3000AB72F1 /* DCHitBall.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB13C229B7F3000AB72F1 /* DCHitBall.m */; };
+		A61EB187229E3A3400AB72F1 /* DCGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB185229E3A3400AB72F1 /* DCGameViewController.m */; };
+		A61EB188229E3A3400AB72F1 /* DCGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61EB186229E3A3400AB72F1 /* DCGameViewController.xib */; };
+		A61EB18E229E76D400AB72F1 /* DCGameRules.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EB18D229E76D400AB72F1 /* DCGameRules.m */; };
+		A6EDF4CA22B1F41F0037AB5D /* BYGameCenterInt.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EDF4C922B1F41F0037AB5D /* BYGameCenterInt.m */; };
+		A6EDF4CD22B222260037AB5D /* m_game1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6EDF4CC22B222260037AB5D /* m_game1.mp3 */; };
+		A6EDF4CF22B243440037AB5D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EDF4CE22B243430037AB5D /* AVFoundation.framework */; };
+		A6EDF4D222B243D40037AB5D /* DCBackgroundMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EDF4D122B243D40037AB5D /* DCBackgroundMusic.m */; };
+		A6EDF4D922B2467C0037AB5D /* BYSystemVolum.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EDF4D822B2467C0037AB5D /* BYSystemVolum.m */; };
+		A6EDF4DC22B252720037AB5D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EDF4DB22B252720037AB5D /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A61EB1162297DC6D00AB72F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A61EB0F52297DC6C00AB72F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61EB0FC2297DC6C00AB72F1;
+			remoteInfo = DodgeCombat;
+		};
+		A61EB1212297DC6D00AB72F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A61EB0F52297DC6C00AB72F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61EB0FC2297DC6C00AB72F1;
+			remoteInfo = DodgeCombat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12D1B36917758F699C9334C2 /* Pods-PredatorMissile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PredatorMissile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PredatorMissile/Pods-PredatorMissile.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE74B7528F144473142D8AB /* libPods-PredatorMissile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PredatorMissile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4AB6854742E23617FEA20A /* Pods-PredatorMissile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PredatorMissile.release.xcconfig"; path = "Pods/Target Support Files/Pods-PredatorMissile/Pods-PredatorMissile.release.xcconfig"; sourceTree = "<group>"; };
+		A617268A22B0A601006FDE18 /* DCGameOverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGameOverView.h; sourceTree = "<group>"; };
+		A617268B22B0A601006FDE18 /* DCGameOverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGameOverView.m; sourceTree = "<group>"; };
+		A617268D22B0A60D006FDE18 /* DCGameOverView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DCGameOverView.xib; sourceTree = "<group>"; };
+		A617269422B0D6C5006FDE18 /* DCVoiceSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCVoiceSettingView.h; sourceTree = "<group>"; };
+		A617269522B0D6C5006FDE18 /* DCVoiceSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCVoiceSettingView.m; sourceTree = "<group>"; };
+		A617269722B0D6E8006FDE18 /* DCVoiceSettingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DCVoiceSettingView.xib; sourceTree = "<group>"; };
+		A61EB0FD2297DC6C00AB72F1 /* PredatorMissile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PredatorMissile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61EB1002297DC6C00AB72F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A61EB1012297DC6C00AB72F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A61EB1032297DC6C00AB72F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A61EB1042297DC6C00AB72F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A61EB1072297DC6C00AB72F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A61EB1092297DC6D00AB72F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A61EB10C2297DC6D00AB72F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A61EB10E2297DC6D00AB72F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61EB10F2297DC6D00AB72F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A61EB1152297DC6D00AB72F1 /* PredatorMissileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PredatorMissileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61EB1192297DC6D00AB72F1 /* DodgeCombatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DodgeCombatTests.m; sourceTree = "<group>"; };
+		A61EB11B2297DC6D00AB72F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61EB1202297DC6D00AB72F1 /* PredatorMissileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PredatorMissileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61EB1242297DC6D00AB72F1 /* DodgeCombatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DodgeCombatUITests.m; sourceTree = "<group>"; };
+		A61EB1262297DC6D00AB72F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61EB1322297DC9E00AB72F1 /* DCGameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGameView.h; sourceTree = "<group>"; };
+		A61EB1332297DC9E00AB72F1 /* DCGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGameView.m; sourceTree = "<group>"; };
+		A61EB135229931C800AB72F1 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		A61EB136229931C900AB72F1 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		A61EB13B229B7F3000AB72F1 /* DCHitBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCHitBall.h; sourceTree = "<group>"; };
+		A61EB13C229B7F3000AB72F1 /* DCHitBall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCHitBall.m; sourceTree = "<group>"; };
+		A61EB184229E3A3400AB72F1 /* DCGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGameViewController.h; sourceTree = "<group>"; };
+		A61EB185229E3A3400AB72F1 /* DCGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGameViewController.m; sourceTree = "<group>"; };
+		A61EB186229E3A3400AB72F1 /* DCGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DCGameViewController.xib; sourceTree = "<group>"; };
+		A61EB189229E3E6300AB72F1 /* DCViewsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCViewsHeader.h; sourceTree = "<group>"; };
+		A61EB18A229E3EFA00AB72F1 /* CatogaryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatogaryHeader.h; sourceTree = "<group>"; };
+		A61EB18C229E76D400AB72F1 /* DCGameRules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGameRules.h; sourceTree = "<group>"; };
+		A61EB18D229E76D400AB72F1 /* DCGameRules.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGameRules.m; sourceTree = "<group>"; };
+		A6EDF4C822B1F41F0037AB5D /* BYGameCenterInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYGameCenterInt.h; sourceTree = "<group>"; };
+		A6EDF4C922B1F41F0037AB5D /* BYGameCenterInt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYGameCenterInt.m; sourceTree = "<group>"; };
+		A6EDF4CC22B222260037AB5D /* m_game1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m_game1.mp3; sourceTree = "<group>"; };
+		A6EDF4CE22B243430037AB5D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A6EDF4D022B243D40037AB5D /* DCBackgroundMusic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCBackgroundMusic.h; sourceTree = "<group>"; };
+		A6EDF4D122B243D40037AB5D /* DCBackgroundMusic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCBackgroundMusic.m; sourceTree = "<group>"; };
+		A6EDF4D722B2467C0037AB5D /* BYSystemVolum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYSystemVolum.h; sourceTree = "<group>"; };
+		A6EDF4D822B2467C0037AB5D /* BYSystemVolum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYSystemVolum.m; sourceTree = "<group>"; };
+		A6EDF4DA22B24B3F0037AB5D /* DCRulesHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCRulesHeader.h; sourceTree = "<group>"; };
+		A6EDF4DB22B252720037AB5D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61EB0FA2297DC6C00AB72F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EDF4DC22B252720037AB5D /* MediaPlayer.framework in Frameworks */,
+				A6EDF4CF22B243440037AB5D /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB1122297DC6D00AB72F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB11D2297DC6D00AB72F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61EB0F42297DC6C00AB72F1 = {
+			isa = PBXGroup;
+			children = (
+				A61EB0FF2297DC6C00AB72F1 /* DodgeCombat */,
+				A61EB1182297DC6D00AB72F1 /* DodgeCombatTests */,
+				A61EB1232297DC6D00AB72F1 /* DodgeCombatUITests */,
+				A61EB0FE2297DC6C00AB72F1 /* Products */,
+				CE4FEE21802E943E886ED2E4 /* Pods */,
+				DC39F15178C1129295CFC073 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A61EB0FE2297DC6C00AB72F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61EB0FD2297DC6C00AB72F1 /* PredatorMissile.app */,
+				A61EB1152297DC6D00AB72F1 /* PredatorMissileTests.xctest */,
+				A61EB1202297DC6D00AB72F1 /* PredatorMissileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61EB0FF2297DC6C00AB72F1 /* DodgeCombat */ = {
+			isa = PBXGroup;
+			children = (
+				A6EDF4CB22B2221A0037AB5D /* Music */,
+				A61EB139229931D800AB72F1 /* Catogary */,
+				A61EB1002297DC6C00AB72F1 /* AppDelegate.h */,
+				A61EB1012297DC6C00AB72F1 /* AppDelegate.m */,
+				A61EB1032297DC6C00AB72F1 /* ViewController.h */,
+				A61EB1042297DC6C00AB72F1 /* ViewController.m */,
+				A61EB1062297DC6C00AB72F1 /* Main.storyboard */,
+				A61EB184229E3A3400AB72F1 /* DCGameViewController.h */,
+				A61EB185229E3A3400AB72F1 /* DCGameViewController.m */,
+				A61EB186229E3A3400AB72F1 /* DCGameViewController.xib */,
+				A61EB18B229E75B000AB72F1 /* DCRules */,
+				A61EB13A229931FA00AB72F1 /* DCViews */,
+				A61EB1092297DC6D00AB72F1 /* Assets.xcassets */,
+				A61EB10B2297DC6D00AB72F1 /* LaunchScreen.storyboard */,
+				A61EB10E2297DC6D00AB72F1 /* Info.plist */,
+				A61EB10F2297DC6D00AB72F1 /* main.m */,
+			);
+			path = DodgeCombat;
+			sourceTree = "<group>";
+		};
+		A61EB1182297DC6D00AB72F1 /* DodgeCombatTests */ = {
+			isa = PBXGroup;
+			children = (
+				A61EB1192297DC6D00AB72F1 /* DodgeCombatTests.m */,
+				A61EB11B2297DC6D00AB72F1 /* Info.plist */,
+			);
+			path = DodgeCombatTests;
+			sourceTree = "<group>";
+		};
+		A61EB1232297DC6D00AB72F1 /* DodgeCombatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A61EB1242297DC6D00AB72F1 /* DodgeCombatUITests.m */,
+				A61EB1262297DC6D00AB72F1 /* Info.plist */,
+			);
+			path = DodgeCombatUITests;
+			sourceTree = "<group>";
+		};
+		A61EB139229931D800AB72F1 /* Catogary */ = {
+			isa = PBXGroup;
+			children = (
+				A61EB135229931C800AB72F1 /* UIView+Additions.h */,
+				A61EB136229931C900AB72F1 /* UIView+Additions.m */,
+				A61EB18A229E3EFA00AB72F1 /* CatogaryHeader.h */,
+			);
+			path = Catogary;
+			sourceTree = "<group>";
+		};
+		A61EB13A229931FA00AB72F1 /* DCViews */ = {
+			isa = PBXGroup;
+			children = (
+				A61EB1322297DC9E00AB72F1 /* DCGameView.h */,
+				A61EB1332297DC9E00AB72F1 /* DCGameView.m */,
+				A61EB13B229B7F3000AB72F1 /* DCHitBall.h */,
+				A61EB13C229B7F3000AB72F1 /* DCHitBall.m */,
+				A61EB189229E3E6300AB72F1 /* DCViewsHeader.h */,
+				A617268A22B0A601006FDE18 /* DCGameOverView.h */,
+				A617268B22B0A601006FDE18 /* DCGameOverView.m */,
+				A617268D22B0A60D006FDE18 /* DCGameOverView.xib */,
+				A617269422B0D6C5006FDE18 /* DCVoiceSettingView.h */,
+				A617269522B0D6C5006FDE18 /* DCVoiceSettingView.m */,
+				A617269722B0D6E8006FDE18 /* DCVoiceSettingView.xib */,
+			);
+			path = DCViews;
+			sourceTree = "<group>";
+		};
+		A61EB18B229E75B000AB72F1 /* DCRules */ = {
+			isa = PBXGroup;
+			children = (
+				A6EDF4DA22B24B3F0037AB5D /* DCRulesHeader.h */,
+				A6EDF4C822B1F41F0037AB5D /* BYGameCenterInt.h */,
+				A6EDF4C922B1F41F0037AB5D /* BYGameCenterInt.m */,
+				A61EB18C229E76D400AB72F1 /* DCGameRules.h */,
+				A61EB18D229E76D400AB72F1 /* DCGameRules.m */,
+				A6EDF4D622B245C20037AB5D /* DCMusicFun */,
+			);
+			path = DCRules;
+			sourceTree = "<group>";
+		};
+		A6EDF4CB22B2221A0037AB5D /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				A6EDF4CC22B222260037AB5D /* m_game1.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		A6EDF4D622B245C20037AB5D /* DCMusicFun */ = {
+			isa = PBXGroup;
+			children = (
+				A6EDF4D022B243D40037AB5D /* DCBackgroundMusic.h */,
+				A6EDF4D122B243D40037AB5D /* DCBackgroundMusic.m */,
+				A6EDF4D722B2467C0037AB5D /* BYSystemVolum.h */,
+				A6EDF4D822B2467C0037AB5D /* BYSystemVolum.m */,
+			);
+			path = DCMusicFun;
+			sourceTree = "<group>";
+		};
+		CE4FEE21802E943E886ED2E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12D1B36917758F699C9334C2 /* Pods-PredatorMissile.debug.xcconfig */,
+				8D4AB6854742E23617FEA20A /* Pods-PredatorMissile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC39F15178C1129295CFC073 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EDF4DB22B252720037AB5D /* MediaPlayer.framework */,
+				A6EDF4CE22B243430037AB5D /* AVFoundation.framework */,
+				5EE74B7528F144473142D8AB /* libPods-PredatorMissile.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61EB0FC2297DC6C00AB72F1 /* PredatorMissile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61EB1292297DC6D00AB72F1 /* Build configuration list for PBXNativeTarget "PredatorMissile" */;
+			buildPhases = (
+				74A45A8E1E6EF080D740E16C /* [CP] Check Pods Manifest.lock */,
+				A61EB0F92297DC6C00AB72F1 /* Sources */,
+				A61EB0FA2297DC6C00AB72F1 /* Frameworks */,
+				A61EB0FB2297DC6C00AB72F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PredatorMissile;
+			productName = DodgeCombat;
+			productReference = A61EB0FD2297DC6C00AB72F1 /* PredatorMissile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A61EB1142297DC6D00AB72F1 /* PredatorMissileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61EB12C2297DC6D00AB72F1 /* Build configuration list for PBXNativeTarget "PredatorMissileTests" */;
+			buildPhases = (
+				A61EB1112297DC6D00AB72F1 /* Sources */,
+				A61EB1122297DC6D00AB72F1 /* Frameworks */,
+				A61EB1132297DC6D00AB72F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61EB1172297DC6D00AB72F1 /* PBXTargetDependency */,
+			);
+			name = PredatorMissileTests;
+			productName = DodgeCombatTests;
+			productReference = A61EB1152297DC6D00AB72F1 /* PredatorMissileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A61EB11F2297DC6D00AB72F1 /* PredatorMissileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61EB12F2297DC6D00AB72F1 /* Build configuration list for PBXNativeTarget "PredatorMissileUITests" */;
+			buildPhases = (
+				A61EB11C2297DC6D00AB72F1 /* Sources */,
+				A61EB11D2297DC6D00AB72F1 /* Frameworks */,
+				A61EB11E2297DC6D00AB72F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61EB1222297DC6D00AB72F1 /* PBXTargetDependency */,
+			);
+			name = PredatorMissileUITests;
+			productName = DodgeCombatUITests;
+			productReference = A61EB1202297DC6D00AB72F1 /* PredatorMissileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61EB0F52297DC6C00AB72F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = HC16;
+				TargetAttributes = {
+					A61EB0FC2297DC6C00AB72F1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A61EB1142297DC6D00AB72F1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A61EB0FC2297DC6C00AB72F1;
+					};
+					A61EB11F2297DC6D00AB72F1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A61EB0FC2297DC6C00AB72F1;
+					};
+				};
+			};
+			buildConfigurationList = A61EB0F82297DC6C00AB72F1 /* Build configuration list for PBXProject "PredatorMissile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A61EB0F42297DC6C00AB72F1;
+			productRefGroup = A61EB0FE2297DC6C00AB72F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61EB0FC2297DC6C00AB72F1 /* PredatorMissile */,
+				A61EB1142297DC6D00AB72F1 /* PredatorMissileTests */,
+				A61EB11F2297DC6D00AB72F1 /* PredatorMissileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61EB0FB2297DC6C00AB72F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61EB10D2297DC6D00AB72F1 /* LaunchScreen.storyboard in Resources */,
+				A617269822B0D6E8006FDE18 /* DCVoiceSettingView.xib in Resources */,
+				A61EB188229E3A3400AB72F1 /* DCGameViewController.xib in Resources */,
+				A61EB10A2297DC6D00AB72F1 /* Assets.xcassets in Resources */,
+				A6EDF4CD22B222260037AB5D /* m_game1.mp3 in Resources */,
+				A617268E22B0A60D006FDE18 /* DCGameOverView.xib in Resources */,
+				A61EB1082297DC6C00AB72F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB1132297DC6D00AB72F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB11E2297DC6D00AB72F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74A45A8E1E6EF080D740E16C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PredatorMissile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61EB0F92297DC6C00AB72F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EDF4CA22B1F41F0037AB5D /* BYGameCenterInt.m in Sources */,
+				A61EB1052297DC6C00AB72F1 /* ViewController.m in Sources */,
+				A617268C22B0A601006FDE18 /* DCGameOverView.m in Sources */,
+				A61EB1102297DC6D00AB72F1 /* main.m in Sources */,
+				A61EB1022297DC6C00AB72F1 /* AppDelegate.m in Sources */,
+				A61EB13D229B7F3000AB72F1 /* DCHitBall.m in Sources */,
+				A61EB18E229E76D400AB72F1 /* DCGameRules.m in Sources */,
+				A61EB137229931C900AB72F1 /* UIView+Additions.m in Sources */,
+				A6EDF4D222B243D40037AB5D /* DCBackgroundMusic.m in Sources */,
+				A617269622B0D6C5006FDE18 /* DCVoiceSettingView.m in Sources */,
+				A6EDF4D922B2467C0037AB5D /* BYSystemVolum.m in Sources */,
+				A61EB187229E3A3400AB72F1 /* DCGameViewController.m in Sources */,
+				A61EB1342297DC9E00AB72F1 /* DCGameView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB1112297DC6D00AB72F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61EB11A2297DC6D00AB72F1 /* DodgeCombatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61EB11C2297DC6D00AB72F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61EB1252297DC6D00AB72F1 /* DodgeCombatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A61EB1172297DC6D00AB72F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61EB0FC2297DC6C00AB72F1 /* PredatorMissile */;
+			targetProxy = A61EB1162297DC6D00AB72F1 /* PBXContainerItemProxy */;
+		};
+		A61EB1222297DC6D00AB72F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61EB0FC2297DC6C00AB72F1 /* PredatorMissile */;
+			targetProxy = A61EB1212297DC6D00AB72F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A61EB1062297DC6C00AB72F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61EB1072297DC6C00AB72F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A61EB10B2297DC6D00AB72F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61EB10C2297DC6D00AB72F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A61EB1272297DC6D00AB72F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A61EB1282297DC6D00AB72F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61EB12A2297DC6D00AB72F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D1B36917758F699C9334C2 /* Pods-PredatorMissile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YAKF8U49Y;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = DodgeCombat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-isystem",
+					"-isystem",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbd.predatormissle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A61EB12B2297DC6D00AB72F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4AB6854742E23617FEA20A /* Pods-PredatorMissile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YAKF8U49Y;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = DodgeCombat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-isystem",
+					"-isystem",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbd.predatormissle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A61EB12D2297DC6D00AB72F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DodgeCombatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.by.dogeCom.DodgeCombatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PredatorMissile.app/PredatorMissile";
+			};
+			name = Debug;
+		};
+		A61EB12E2297DC6D00AB72F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DodgeCombatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.by.dogeCom.DodgeCombatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PredatorMissile.app/PredatorMissile";
+			};
+			name = Release;
+		};
+		A61EB1302297DC6D00AB72F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DodgeCombatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.by.dogeCom.DodgeCombatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DodgeCombat;
+			};
+			name = Debug;
+		};
+		A61EB1312297DC6D00AB72F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DodgeCombatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.by.dogeCom.DodgeCombatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DodgeCombat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61EB0F82297DC6C00AB72F1 /* Build configuration list for PBXProject "PredatorMissile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61EB1272297DC6D00AB72F1 /* Debug */,
+				A61EB1282297DC6D00AB72F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61EB1292297DC6D00AB72F1 /* Build configuration list for PBXNativeTarget "PredatorMissile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61EB12A2297DC6D00AB72F1 /* Debug */,
+				A61EB12B2297DC6D00AB72F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61EB12C2297DC6D00AB72F1 /* Build configuration list for PBXNativeTarget "PredatorMissileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61EB12D2297DC6D00AB72F1 /* Debug */,
+				A61EB12E2297DC6D00AB72F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61EB12F2297DC6D00AB72F1 /* Build configuration list for PBXNativeTarget "PredatorMissileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61EB1302297DC6D00AB72F1 /* Debug */,
+				A61EB1312297DC6D00AB72F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61EB0F52297DC6C00AB72F1 /* Project object */;
+}

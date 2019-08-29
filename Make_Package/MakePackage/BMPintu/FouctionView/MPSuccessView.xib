@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MPSuccessView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MPSuccessView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNQ-Me-oQn" userLabel="ShawdowView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="congratulationdi" translatesAutoresizingMaskIntoConstraints="NO" id="a3c-YD-O86">
+                    <rect key="frame" x="16.5" y="302.5" width="381" height="291"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="a3c-YD-O86" secondAttribute="height" multiplier="401:306" id="Cww-co-vdY"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Huc-bV-YRa">
+                    <rect key="frame" x="360" y="318" width="45.5" height="45.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Huc-bV-YRa" secondAttribute="height" multiplier="1:1" id="4IY-8x-eZO"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="close"/>
+                    <connections>
+                        <action selector="closeSuccessView:" destination="-1" eventType="touchUpInside" id="CqI-60-mZq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2T-Et-ZrR">
+                    <rect key="frame" x="85" y="505" width="114" height="44.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="H2T-Et-ZrR" secondAttribute="height" multiplier="31:12" id="jqw-0t-swk"/>
+                    </constraints>
+                    <state key="normal" image="HOME"/>
+                    <connections>
+                        <action selector="backtoHomeView:" destination="-1" eventType="touchUpInside" id="CbY-X7-y4e"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLz-np-qzi">
+                    <rect key="frame" x="240" y="505" width="114.5" height="44.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="GLz-np-qzi" secondAttribute="height" multiplier="31:12" id="UqT-ur-t01"/>
+                    </constraints>
+                    <state key="normal" image="NEXT"/>
+                    <connections>
+                        <action selector="playNextStage:" destination="-1" eventType="touchUpInside" id="paQ-m9-9bA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="a3c-YD-O86" firstAttribute="bottom" secondItem="H2T-Et-ZrR" secondAttribute="bottom" multiplier="1.08" id="0PP-Bt-MMg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cNQ-Me-oQn" secondAttribute="trailing" id="0lE-Xj-VId"/>
+                <constraint firstItem="a3c-YD-O86" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="4cg-EW-R6t"/>
+                <constraint firstItem="GLz-np-qzi" firstAttribute="centerY" secondItem="H2T-Et-ZrR" secondAttribute="centerY" id="6Kc-VL-0jI"/>
+                <constraint firstItem="a3c-YD-O86" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.92" id="CC1-vQ-NER"/>
+                <constraint firstAttribute="bottom" secondItem="cNQ-Me-oQn" secondAttribute="bottom" id="D2P-wh-cxv"/>
+                <constraint firstItem="H2T-Et-ZrR" firstAttribute="width" secondItem="a3c-YD-O86" secondAttribute="width" multiplier="0.3" id="DfH-GW-CS5"/>
+                <constraint firstItem="GLz-np-qzi" firstAttribute="leading" secondItem="a3c-YD-O86" secondAttribute="centerX" multiplier="1.16" id="H2O-EK-anH"/>
+                <constraint firstItem="a3c-YD-O86" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="NBT-9a-cWD"/>
+                <constraint firstItem="GLz-np-qzi" firstAttribute="width" secondItem="H2T-Et-ZrR" secondAttribute="width" id="Oht-aV-5Nb"/>
+                <constraint firstItem="a3c-YD-O86" firstAttribute="trailing" secondItem="Huc-bV-YRa" secondAttribute="trailing" multiplier="0.98" id="Zhj-FP-A7k"/>
+                <constraint firstItem="cNQ-Me-oQn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dHa-Jn-BEu"/>
+                <constraint firstItem="cNQ-Me-oQn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ftb-48-YCU"/>
+                <constraint firstItem="a3c-YD-O86" firstAttribute="centerX" secondItem="H2T-Et-ZrR" secondAttribute="trailing" multiplier="1.04" id="t2w-ag-hth"/>
+                <constraint firstItem="Huc-bV-YRa" firstAttribute="width" secondItem="a3c-YD-O86" secondAttribute="width" multiplier="0.12" id="vZL-TE-5zF"/>
+                <constraint firstItem="Huc-bV-YRa" firstAttribute="top" secondItem="a3c-YD-O86" secondAttribute="top" multiplier="1.05" id="xOT-TR-fpH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="NextButton" destination="GLz-np-qzi" id="qEy-3J-2T8"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="HOME" width="123.5" height="47.5"/>
+        <image name="NEXT" width="124" height="48.5"/>
+        <image name="close" width="36" height="36"/>
+        <image name="congratulationdi" width="401.33334350585938" height="305.66665649414062"/>
+    </resources>
+</document>

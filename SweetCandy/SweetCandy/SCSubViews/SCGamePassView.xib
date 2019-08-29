@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SCGamePassView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SCGamePassView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frame_pass" translatesAutoresizingMaskIntoConstraints="NO" id="gpF-Kd-6qA">
+                    <rect key="frame" x="10.5" y="306.5" width="393" height="283"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="gpF-Kd-6qA" secondAttribute="height" multiplier="339:244" id="MLw-AH-eH2"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YOU-WIN" translatesAutoresizingMaskIntoConstraints="NO" id="B27-s3-iFz">
+                    <rect key="frame" x="73.5" y="325" width="267" height="62.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="B27-s3-iFz" secondAttribute="height" multiplier="234:55" id="b7z-gN-iYx"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="L1" translatesAutoresizingMaskIntoConstraints="NO" id="32u-0v-7O9">
+                    <rect key="frame" x="164" y="387.5" width="86" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="32u-0v-7O9" secondAttribute="height" multiplier="76:29" id="d9m-f4-UrF"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETO-mr-frL">
+                    <rect key="frame" x="62" y="511" width="118" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ETO-mr-frL" secondAttribute="height" multiplier="109:49" id="Zb0-HW-RKn"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_home"/>
+                    <connections>
+                        <action selector="backHome:" destination="-1" eventType="touchUpInside" id="KlA-dC-bBG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rL1-3V-XlA">
+                    <rect key="frame" x="232" y="511" width="115.5" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="rL1-3V-XlA" secondAttribute="height" multiplier="109:49" id="XMA-NA-Ypl"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_next"/>
+                    <connections>
+                        <action selector="nextStage:" destination="-1" eventType="touchUpInside" id="pev-1p-wuM"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pv9-9A-ouJ">
+                    <rect key="frame" x="241.5" y="418.5" width="96.5" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Pv9-9A-ouJ" secondAttribute="height" multiplier="103:36" id="IXr-R8-3ge"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="toh-ca-Mcl">
+                    <rect key="frame" x="241.5" y="461.5" width="96.5" height="33.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="toh-ca-Mcl" secondAttribute="height" multiplier="103:36" id="XSA-j7-6a2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="toh-ca-Mcl" firstAttribute="centerX" secondItem="Pv9-9A-ouJ" secondAttribute="centerX" id="194-Ki-U1g"/>
+                <constraint firstItem="rL1-3V-XlA" firstAttribute="top" secondItem="ETO-mr-frL" secondAttribute="top" id="21t-hI-Bez"/>
+                <constraint firstItem="B27-s3-iFz" firstAttribute="width" secondItem="gpF-Kd-6qA" secondAttribute="width" multiplier="0.68" id="58F-pS-PIC"/>
+                <constraint firstItem="toh-ca-Mcl" firstAttribute="width" secondItem="Pv9-9A-ouJ" secondAttribute="width" id="76q-dc-9ak"/>
+                <constraint firstItem="Pv9-9A-ouJ" firstAttribute="top" secondItem="B27-s3-iFz" secondAttribute="bottom" multiplier="1.08" id="8Kc-Fr-FEi"/>
+                <constraint firstItem="ETO-mr-frL" firstAttribute="width" secondItem="gpF-Kd-6qA" secondAttribute="width" multiplier="0.3" id="Ms3-aV-1Hq"/>
+                <constraint firstItem="rL1-3V-XlA" firstAttribute="width" secondItem="Pv9-9A-ouJ" secondAttribute="width" multiplier="1.2" id="OT8-N9-CQu"/>
+                <constraint firstItem="32u-0v-7O9" firstAttribute="width" secondItem="B27-s3-iFz" secondAttribute="width" multiplier="0.32" id="Wil-dP-H5r"/>
+                <constraint firstItem="32u-0v-7O9" firstAttribute="top" secondItem="B27-s3-iFz" secondAttribute="bottom" id="Yaf-zW-e6w"/>
+                <constraint firstItem="B27-s3-iFz" firstAttribute="top" secondItem="gpF-Kd-6qA" secondAttribute="top" multiplier="1.06" id="aVS-up-pM1"/>
+                <constraint firstItem="rL1-3V-XlA" firstAttribute="width" secondItem="ETO-mr-frL" secondAttribute="width" multiplier="0.98" id="aeE-aH-sBv"/>
+                <constraint firstItem="32u-0v-7O9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ddy-qF-xDD"/>
+                <constraint firstItem="toh-ca-Mcl" firstAttribute="top" secondItem="Pv9-9A-ouJ" secondAttribute="bottom" multiplier="1.02" id="eg6-AA-s1z"/>
+                <constraint firstItem="gpF-Kd-6qA" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.95" id="fQB-pm-RQx"/>
+                <constraint firstItem="gpF-Kd-6qA" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="g0X-FM-n0o"/>
+                <constraint firstItem="rL1-3V-XlA" firstAttribute="leading" secondItem="gpF-Kd-6qA" secondAttribute="centerX" multiplier="1.12" id="hiI-aN-pvh"/>
+                <constraint firstItem="gpF-Kd-6qA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="i1C-5U-GaW"/>
+                <constraint firstItem="gpF-Kd-6qA" firstAttribute="centerX" secondItem="ETO-mr-frL" secondAttribute="trailing" multiplier="1.15" id="q4f-Z4-8Zg"/>
+                <constraint firstItem="rL1-3V-XlA" firstAttribute="centerX" secondItem="Pv9-9A-ouJ" secondAttribute="centerX" id="sol-VD-g2m"/>
+                <constraint firstItem="gpF-Kd-6qA" firstAttribute="bottom" secondItem="ETO-mr-frL" secondAttribute="bottom" multiplier="1.045" id="tQb-vp-tQq"/>
+                <constraint firstItem="B27-s3-iFz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vPg-QD-sko"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="bestTimeView" destination="toh-ca-Mcl" id="77X-3F-alE"/>
+                <outlet property="labelImageView" destination="32u-0v-7O9" id="Pct-LG-2ST"/>
+                <outlet property="newTimeView" destination="Pv9-9A-ouJ" id="cN5-Tg-HdX"/>
+            </connections>
+            <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="L1" width="76" height="21.5"/>
+        <image name="YOU-WIN" width="234" height="55"/>
+        <image name="btn_home" width="109" height="48.5"/>
+        <image name="btn_next" width="107" height="45.5"/>
+        <image name="frame_pass" width="339" height="244"/>
+    </resources>
+</document>

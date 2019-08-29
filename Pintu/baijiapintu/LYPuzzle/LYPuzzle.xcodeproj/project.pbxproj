@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A607CA3D226EC23C0053D96E /* LYPuzzlePTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A607CA3B226EC23C0053D96E /* LYPuzzlePTViewController.xib */; };
+		A607CA3E226EC7830053D96E /* LYPuzzlePTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A607CA3A226EC23C0053D96E /* LYPuzzlePTViewController.m */; };
+		A6334406226F10170030B5E0 /* BYShadowBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6334404226F10160030B5E0 /* BYShadowBGView.m */; };
+		A633440A226F21760030B5E0 /* LYPuzzlesReadyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6334409226F21760030B5E0 /* LYPuzzlesReadyView.m */; };
+		A633440D227005CA0030B5E0 /* LYCountdownTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A633440C227005CA0030B5E0 /* LYCountdownTimer.m */; };
+		A633440F227019C70030B5E0 /* LevelTime.plist in Resources */ = {isa = PBXBuildFile; fileRef = A633440E227019C70030B5E0 /* LevelTime.plist */; };
+		A698EADB2265E339000A99B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A698EADA2265E339000A99B9 /* AppDelegate.m */; };
+		A698EADE2265E339000A99B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A698EADD2265E339000A99B9 /* ViewController.m */; };
+		A698EAE12265E339000A99B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A698EADF2265E339000A99B9 /* Main.storyboard */; };
+		A698EAE32265E33B000A99B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A698EAE22265E33B000A99B9 /* Assets.xcassets */; };
+		A698EAE92265E33B000A99B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A698EAE82265E33B000A99B9 /* main.m */; };
+		A698EAF32265E33C000A99B9 /* LYPuzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A698EAF22265E33C000A99B9 /* LYPuzzleTests.m */; };
+		A698EAFE2265E33C000A99B9 /* LYPuzzleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A698EAFD2265E33C000A99B9 /* LYPuzzleUITests.m */; };
+		A698EB132266CAF2000A99B9 /* LYPuzzlePiecesImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A698EB122266CAF2000A99B9 /* LYPuzzlePiecesImage.m */; };
+		A6B0FFF2228023980084AB6E /* LYGameOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B0FFF1228023980084AB6E /* LYGameOverView.m */; };
+		A6B0FFF4228023AA0084AB6E /* LYGameOverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B0FFF3228023AA0084AB6E /* LYGameOverView.xib */; };
+		A6B0FFF7228029CB0084AB6E /* LYPassGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B0FFF6228029CB0084AB6E /* LYPassGameView.m */; };
+		A6B0FFF9228029D90084AB6E /* LYPassGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B0FFF8228029D90084AB6E /* LYPassGameView.xib */; };
+		A6B0FFFD22812DF80084AB6E /* LYDataMesta.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B0FFFC22812DF80084AB6E /* LYDataMesta.m */; };
+		A6C9382E226EE75300E68968 /* LYPuzzleCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C9382D226EE75300E68968 /* LYPuzzleCollectionView.m */; };
+		A6CE426722686A110079E60B /* UIButton+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CE426422686A110079E60B /* UIButton+Additions.m */; };
+		A6CE426822686A110079E60B /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CE426622686A110079E60B /* UIView+Additions.m */; };
+		FFF0B2CA76543AB32793227F /* libPods-LYPuzzle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64447F9D27C3D57E4D3892FC /* libPods-LYPuzzle.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A698EAEF2265E33C000A99B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A698EACE2265E339000A99B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A698EAD52265E339000A99B9;
+			remoteInfo = LYPuzzle;
+		};
+		A698EAFA2265E33C000A99B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A698EACE2265E339000A99B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A698EAD52265E339000A99B9;
+			remoteInfo = LYPuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09CC7140B794F9B07AFA8502 /* Pods-LYPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPuzzle.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYPuzzle/Pods-LYPuzzle.release.xcconfig"; sourceTree = "<group>"; };
+		64447F9D27C3D57E4D3892FC /* libPods-LYPuzzle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYPuzzle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		919BA2BF2A11E89BE9205CA7 /* Pods-LYPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPuzzle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYPuzzle/Pods-LYPuzzle.debug.xcconfig"; sourceTree = "<group>"; };
+		A607CA38226EA9D30053D96E /* Toolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toolbox.h; sourceTree = "<group>"; };
+		A607CA39226EC23C0053D96E /* LYPuzzlePTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPuzzlePTViewController.h; sourceTree = "<group>"; };
+		A607CA3A226EC23C0053D96E /* LYPuzzlePTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPuzzlePTViewController.m; sourceTree = "<group>"; };
+		A607CA3B226EC23C0053D96E /* LYPuzzlePTViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPuzzlePTViewController.xib; sourceTree = "<group>"; };
+		A6334404226F10160030B5E0 /* BYShadowBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYShadowBGView.m; sourceTree = "<group>"; };
+		A6334405226F10170030B5E0 /* BYShadowBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYShadowBGView.h; sourceTree = "<group>"; };
+		A6334408226F21760030B5E0 /* LYPuzzlesReadyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPuzzlesReadyView.h; sourceTree = "<group>"; };
+		A6334409226F21760030B5E0 /* LYPuzzlesReadyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPuzzlesReadyView.m; sourceTree = "<group>"; };
+		A633440B227005CA0030B5E0 /* LYCountdownTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCountdownTimer.h; sourceTree = "<group>"; };
+		A633440C227005CA0030B5E0 /* LYCountdownTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCountdownTimer.m; sourceTree = "<group>"; };
+		A633440E227019C70030B5E0 /* LevelTime.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LevelTime.plist; sourceTree = "<group>"; };
+		A698EAD62265E339000A99B9 /* LYPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A698EAD92265E339000A99B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A698EADA2265E339000A99B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A698EADC2265E339000A99B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A698EADD2265E339000A99B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A698EAE02265E339000A99B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A698EAE22265E33B000A99B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A698EAE52265E33B000A99B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A698EAE72265E33B000A99B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A698EAE82265E33B000A99B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A698EAEE2265E33C000A99B9 /* LYPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A698EAF22265E33C000A99B9 /* LYPuzzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPuzzleTests.m; sourceTree = "<group>"; };
+		A698EAF42265E33C000A99B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A698EAF92265E33C000A99B9 /* LYPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A698EAFD2265E33C000A99B9 /* LYPuzzleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPuzzleUITests.m; sourceTree = "<group>"; };
+		A698EAFF2265E33C000A99B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A698EB112266CAF2000A99B9 /* LYPuzzlePiecesImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPuzzlePiecesImage.h; sourceTree = "<group>"; };
+		A698EB122266CAF2000A99B9 /* LYPuzzlePiecesImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPuzzlePiecesImage.m; sourceTree = "<group>"; };
+		A6B0FFEE22800AB50084AB6E /* LYGameResultDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYGameResultDelegate.h; sourceTree = "<group>"; };
+		A6B0FFF0228023980084AB6E /* LYGameOverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYGameOverView.h; sourceTree = "<group>"; };
+		A6B0FFF1228023980084AB6E /* LYGameOverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYGameOverView.m; sourceTree = "<group>"; };
+		A6B0FFF3228023AA0084AB6E /* LYGameOverView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYGameOverView.xib; sourceTree = "<group>"; };
+		A6B0FFF5228029CB0084AB6E /* LYPassGameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPassGameView.h; sourceTree = "<group>"; };
+		A6B0FFF6228029CB0084AB6E /* LYPassGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPassGameView.m; sourceTree = "<group>"; };
+		A6B0FFF8228029D90084AB6E /* LYPassGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPassGameView.xib; sourceTree = "<group>"; };
+		A6B0FFFB22812DF80084AB6E /* LYDataMesta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDataMesta.h; sourceTree = "<group>"; };
+		A6B0FFFC22812DF80084AB6E /* LYDataMesta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDataMesta.m; sourceTree = "<group>"; };
+		A6C9382C226EE75300E68968 /* LYPuzzleCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPuzzleCollectionView.h; sourceTree = "<group>"; };
+		A6C9382D226EE75300E68968 /* LYPuzzleCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPuzzleCollectionView.m; sourceTree = "<group>"; };
+		A6CE426322686A100079E60B /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		A6CE426422686A110079E60B /* UIButton+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Additions.m"; sourceTree = "<group>"; };
+		A6CE426522686A110079E60B /* UIButton+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Additions.h"; sourceTree = "<group>"; };
+		A6CE426622686A110079E60B /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A698EAD32265E339000A99B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF0B2CA76543AB32793227F /* libPods-LYPuzzle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A698EAEB2265E33C000A99B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A698EAF62265E33C000A99B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77A6813C34EB7A498153BD4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64447F9D27C3D57E4D3892FC /* libPods-LYPuzzle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CC68D9DD4A3D1719C46C72C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				919BA2BF2A11E89BE9205CA7 /* Pods-LYPuzzle.debug.xcconfig */,
+				09CC7140B794F9B07AFA8502 /* Pods-LYPuzzle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6334407226F20250030B5E0 /* Founction */ = {
+			isa = PBXGroup;
+			children = (
+				A698EB112266CAF2000A99B9 /* LYPuzzlePiecesImage.h */,
+				A698EB122266CAF2000A99B9 /* LYPuzzlePiecesImage.m */,
+				A6C9382C226EE75300E68968 /* LYPuzzleCollectionView.h */,
+				A6C9382D226EE75300E68968 /* LYPuzzleCollectionView.m */,
+				A6334408226F21760030B5E0 /* LYPuzzlesReadyView.h */,
+				A6334409226F21760030B5E0 /* LYPuzzlesReadyView.m */,
+				A633440B227005CA0030B5E0 /* LYCountdownTimer.h */,
+				A633440C227005CA0030B5E0 /* LYCountdownTimer.m */,
+			);
+			path = Founction;
+			sourceTree = "<group>";
+		};
+		A698EACD2265E339000A99B9 = {
+			isa = PBXGroup;
+			children = (
+				A698EAD82265E339000A99B9 /* LYPuzzle */,
+				A698EAF12265E33C000A99B9 /* LYPuzzleTests */,
+				A698EAFC2265E33C000A99B9 /* LYPuzzleUITests */,
+				A698EAD72265E339000A99B9 /* Products */,
+				9CC68D9DD4A3D1719C46C72C /* Pods */,
+				77A6813C34EB7A498153BD4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A698EAD72265E339000A99B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A698EAD62265E339000A99B9 /* LYPuzzle.app */,
+				A698EAEE2265E33C000A99B9 /* LYPuzzleTests.xctest */,
+				A698EAF92265E33C000A99B9 /* LYPuzzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A698EAD82265E339000A99B9 /* LYPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				A6CE426922686A190079E60B /* Tool */,
+				A698EAD92265E339000A99B9 /* AppDelegate.h */,
+				A698EADA2265E339000A99B9 /* AppDelegate.m */,
+				A698EADC2265E339000A99B9 /* ViewController.h */,
+				A698EADD2265E339000A99B9 /* ViewController.m */,
+				A633440E227019C70030B5E0 /* LevelTime.plist */,
+				A607CA39226EC23C0053D96E /* LYPuzzlePTViewController.h */,
+				A607CA3A226EC23C0053D96E /* LYPuzzlePTViewController.m */,
+				A607CA3B226EC23C0053D96E /* LYPuzzlePTViewController.xib */,
+				A6B0FFFA22812DCC0084AB6E /* LYDataMes */,
+				A6334407226F20250030B5E0 /* Founction */,
+				A6B0FFEE22800AB50084AB6E /* LYGameResultDelegate.h */,
+				A6B0FFF0228023980084AB6E /* LYGameOverView.h */,
+				A6B0FFF1228023980084AB6E /* LYGameOverView.m */,
+				A6B0FFF3228023AA0084AB6E /* LYGameOverView.xib */,
+				A6B0FFF5228029CB0084AB6E /* LYPassGameView.h */,
+				A6B0FFF6228029CB0084AB6E /* LYPassGameView.m */,
+				A6B0FFF8228029D90084AB6E /* LYPassGameView.xib */,
+				A698EADF2265E339000A99B9 /* Main.storyboard */,
+				A698EAE22265E33B000A99B9 /* Assets.xcassets */,
+				A698EAE42265E33B000A99B9 /* LaunchScreen.storyboard */,
+				A698EAE72265E33B000A99B9 /* Info.plist */,
+				A698EAE82265E33B000A99B9 /* main.m */,
+			);
+			path = LYPuzzle;
+			sourceTree = "<group>";
+		};
+		A698EAF12265E33C000A99B9 /* LYPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A698EAF22265E33C000A99B9 /* LYPuzzleTests.m */,
+				A698EAF42265E33C000A99B9 /* Info.plist */,
+			);
+			path = LYPuzzleTests;
+			sourceTree = "<group>";
+		};
+		A698EAFC2265E33C000A99B9 /* LYPuzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A698EAFD2265E33C000A99B9 /* LYPuzzleUITests.m */,
+				A698EAFF2265E33C000A99B9 /* Info.plist */,
+			);
+			path = LYPuzzleUITests;
+			sourceTree = "<group>";
+		};
+		A6B0FFFA22812DCC0084AB6E /* LYDataMes */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0FFFB22812DF80084AB6E /* LYDataMesta.h */,
+				A6B0FFFC22812DF80084AB6E /* LYDataMesta.m */,
+			);
+			path = LYDataMes;
+			sourceTree = "<group>";
+		};
+		A6CE426922686A190079E60B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A6334405226F10170030B5E0 /* BYShadowBGView.h */,
+				A6334404226F10160030B5E0 /* BYShadowBGView.m */,
+				A6CE426522686A110079E60B /* UIButton+Additions.h */,
+				A6CE426422686A110079E60B /* UIButton+Additions.m */,
+				A6CE426322686A100079E60B /* UIView+Additions.h */,
+				A6CE426622686A110079E60B /* UIView+Additions.m */,
+				A607CA38226EA9D30053D96E /* Toolbox.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A698EAD52265E339000A99B9 /* LYPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A698EB022265E33C000A99B9 /* Build configuration list for PBXNativeTarget "LYPuzzle" */;
+			buildPhases = (
+				48F4BA6CCCD10019006C873F /* [CP] Check Pods Manifest.lock */,
+				A698EAD22265E339000A99B9 /* Sources */,
+				A698EAD32265E339000A99B9 /* Frameworks */,
+				A698EAD42265E339000A99B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYPuzzle;
+			productName = LYPuzzle;
+			productReference = A698EAD62265E339000A99B9 /* LYPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A698EAED2265E33C000A99B9 /* LYPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A698EB052265E33C000A99B9 /* Build configuration list for PBXNativeTarget "LYPuzzleTests" */;
+			buildPhases = (
+				A698EAEA2265E33C000A99B9 /* Sources */,
+				A698EAEB2265E33C000A99B9 /* Frameworks */,
+				A698EAEC2265E33C000A99B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A698EAF02265E33C000A99B9 /* PBXTargetDependency */,
+			);
+			name = LYPuzzleTests;
+			productName = LYPuzzleTests;
+			productReference = A698EAEE2265E33C000A99B9 /* LYPuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A698EAF82265E33C000A99B9 /* LYPuzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A698EB082265E33C000A99B9 /* Build configuration list for PBXNativeTarget "LYPuzzleUITests" */;
+			buildPhases = (
+				A698EAF52265E33C000A99B9 /* Sources */,
+				A698EAF62265E33C000A99B9 /* Frameworks */,
+				A698EAF72265E33C000A99B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A698EAFB2265E33C000A99B9 /* PBXTargetDependency */,
+			);
+			name = LYPuzzleUITests;
+			productName = LYPuzzleUITests;
+			productReference = A698EAF92265E33C000A99B9 /* LYPuzzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A698EACE2265E339000A99B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = HC16;
+				TargetAttributes = {
+					A698EAD52265E339000A99B9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A698EAED2265E33C000A99B9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A698EAD52265E339000A99B9;
+					};
+					A698EAF82265E33C000A99B9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A698EAD52265E339000A99B9;
+					};
+				};
+			};
+			buildConfigurationList = A698EAD12265E339000A99B9 /* Build configuration list for PBXProject "LYPuzzle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A698EACD2265E339000A99B9;
+			productRefGroup = A698EAD72265E339000A99B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A698EAD52265E339000A99B9 /* LYPuzzle */,
+				A698EAED2265E33C000A99B9 /* LYPuzzleTests */,
+				A698EAF82265E33C000A99B9 /* LYPuzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A698EAD42265E339000A99B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A633440F227019C70030B5E0 /* LevelTime.plist in Resources */,
+				A6B0FFF4228023AA0084AB6E /* LYGameOverView.xib in Resources */,
+				A6B0FFF9228029D90084AB6E /* LYPassGameView.xib in Resources */,
+				A698EAE32265E33B000A99B9 /* Assets.xcassets in Resources */,
+				A698EAE12265E339000A99B9 /* Main.storyboard in Resources */,
+				A607CA3D226EC23C0053D96E /* LYPuzzlePTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A698EAEC2265E33C000A99B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A698EAF72265E33C000A99B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48F4BA6CCCD10019006C873F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYPuzzle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A698EAD22265E339000A99B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A698EADE2265E339000A99B9 /* ViewController.m in Sources */,
+				A6C9382E226EE75300E68968 /* LYPuzzleCollectionView.m in Sources */,
+				A6CE426722686A110079E60B /* UIButton+Additions.m in Sources */,
+				A698EB132266CAF2000A99B9 /* LYPuzzlePiecesImage.m in Sources */,
+				A698EAE92265E33B000A99B9 /* main.m in Sources */,
+				A6B0FFFD22812DF80084AB6E /* LYDataMesta.m in Sources */,
+				A6B0FFF7228029CB0084AB6E /* LYPassGameView.m in Sources */,
+				A633440D227005CA0030B5E0 /* LYCountdownTimer.m in Sources */,
+				A6CE426822686A110079E60B /* UIView+Additions.m in Sources */,
+				A6B0FFF2228023980084AB6E /* LYGameOverView.m in Sources */,
+				A6334406226F10170030B5E0 /* BYShadowBGView.m in Sources */,
+				A633440A226F21760030B5E0 /* LYPuzzlesReadyView.m in Sources */,
+				A698EADB2265E339000A99B9 /* AppDelegate.m in Sources */,
+				A607CA3E226EC7830053D96E /* LYPuzzlePTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A698EAEA2265E33C000A99B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A698EAF32265E33C000A99B9 /* LYPuzzleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A698EAF52265E33C000A99B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A698EAFE2265E33C000A99B9 /* LYPuzzleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A698EAF02265E33C000A99B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A698EAD52265E339000A99B9 /* LYPuzzle */;
+			targetProxy = A698EAEF2265E33C000A99B9 /* PBXContainerItemProxy */;
+		};
+		A698EAFB2265E33C000A99B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A698EAD52265E339000A99B9 /* LYPuzzle */;
+			targetProxy = A698EAFA2265E33C000A99B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A698EADF2265E339000A99B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A698EAE02265E339000A99B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A698EAE42265E33B000A99B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A698EAE52265E33B000A99B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A698EB002265E33C000A99B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A698EB012265E33C000A99B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A698EB032265E33C000A99B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919BA2BF2A11E89BE9205CA7 /* Pods-LYPuzzle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HU4D6BBLT3;
+				INFOPLIST_FILE = LYPuzzle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinder.pz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = puzzle_dist;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A698EB042265E33C000A99B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CC7140B794F9B07AFA8502 /* Pods-LYPuzzle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HU4D6BBLT3;
+				INFOPLIST_FILE = LYPuzzle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinder.pz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = puzzle_dist;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A698EB062265E33C000A99B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzle.ptpt.LYPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPuzzle.app/LYPuzzle";
+			};
+			name = Debug;
+		};
+		A698EB072265E33C000A99B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzle.ptpt.LYPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPuzzle.app/LYPuzzle";
+			};
+			name = Release;
+		};
+		A698EB092265E33C000A99B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYPuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzle.ptpt.LYPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYPuzzle;
+			};
+			name = Debug;
+		};
+		A698EB0A2265E33C000A99B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYPuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzle.ptpt.LYPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYPuzzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A698EAD12265E339000A99B9 /* Build configuration list for PBXProject "LYPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A698EB002265E33C000A99B9 /* Debug */,
+				A698EB012265E33C000A99B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A698EB022265E33C000A99B9 /* Build configuration list for PBXNativeTarget "LYPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A698EB032265E33C000A99B9 /* Debug */,
+				A698EB042265E33C000A99B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A698EB052265E33C000A99B9 /* Build configuration list for PBXNativeTarget "LYPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A698EB062265E33C000A99B9 /* Debug */,
+				A698EB072265E33C000A99B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A698EB082265E33C000A99B9 /* Build configuration list for PBXNativeTarget "LYPuzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A698EB092265E33C000A99B9 /* Debug */,
+				A698EB0A2265E33C000A99B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A698EACE2265E339000A99B9 /* Project object */;
+}

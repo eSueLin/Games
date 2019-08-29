@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MentalWorkCompleteView">
+            <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yj5-0K-P3B" userLabel="ShadowView">
+                    <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frame_1" translatesAutoresizingMaskIntoConstraints="NO" id="ZdX-W8-10p">
+                    <rect key="frame" x="245.33333333333334" y="82.666666666666671" width="405.33333333333326" height="248.66666666666663"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ZdX-W8-10p" secondAttribute="height" multiplier="31:19" id="ICB-WL-hb5"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CONGRATUlATiONS" translatesAutoresizingMaskIntoConstraints="NO" id="nha-7S-N0a">
+                    <rect key="frame" x="306" y="132.33333333333334" width="284" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="nha-7S-N0a" secondAttribute="height" multiplier="71:14" id="YIN-nJ-WxY"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nte-D3-kGv" userLabel="HomeButton">
+                    <rect key="frame" x="306" y="235.66666666666663" width="121.66666666666669" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="nte-D3-kGv" secondAttribute="height" multiplier="183:62" id="qV7-7J-z0u"/>
+                    </constraints>
+                    <state key="normal" image="HOME"/>
+                    <connections>
+                        <action selector="backtoHome:" destination="iN0-l3-epB" eventType="touchUpInside" id="KqQ-ql-UFN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpy-aW-n5Q" userLabel="RSButton">
+                    <rect key="frame" x="468.33333333333331" y="235.66666666666663" width="121.66666666666669" height="41"/>
+                    <state key="normal" image="next"/>
+                    <connections>
+                        <action selector="completedtoRestartGame:" destination="iN0-l3-epB" eventType="touchUpInside" id="uw9-Bb-Vn8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="jpy-aW-n5Q" firstAttribute="width" secondItem="nte-D3-kGv" secondAttribute="width" id="1ON-YC-Cvb"/>
+                <constraint firstItem="nha-7S-N0a" firstAttribute="width" secondItem="ZdX-W8-10p" secondAttribute="width" multiplier="0.7" id="28f-bk-qbb"/>
+                <constraint firstItem="yj5-0K-P3B" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="3MQ-Qx-mST"/>
+                <constraint firstItem="nte-D3-kGv" firstAttribute="width" secondItem="ZdX-W8-10p" secondAttribute="width" multiplier="0.3" id="544-5s-MgY"/>
+                <constraint firstItem="nha-7S-N0a" firstAttribute="top" secondItem="ZdX-W8-10p" secondAttribute="top" multiplier="1.6" id="9vr-RC-Vin"/>
+                <constraint firstItem="yj5-0K-P3B" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AwA-7E-luS"/>
+                <constraint firstItem="ZdX-W8-10p" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="BJI-YM-eEP"/>
+                <constraint firstItem="nte-D3-kGv" firstAttribute="top" secondItem="nha-7S-N0a" secondAttribute="bottom" multiplier="1.25" id="FYm-OV-y1x"/>
+                <constraint firstItem="yj5-0K-P3B" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="K4H-o9-iBZ"/>
+                <constraint firstItem="nte-D3-kGv" firstAttribute="leading" secondItem="nha-7S-N0a" secondAttribute="leading" id="Ol0-60-HIf"/>
+                <constraint firstItem="jpy-aW-n5Q" firstAttribute="width" secondItem="jpy-aW-n5Q" secondAttribute="height" multiplier="183:62" id="Xod-d8-BZc"/>
+                <constraint firstItem="jpy-aW-n5Q" firstAttribute="centerY" secondItem="nte-D3-kGv" secondAttribute="centerY" id="ZXA-If-PcK"/>
+                <constraint firstAttribute="top" secondItem="yj5-0K-P3B" secondAttribute="top" id="czK-kC-zuJ"/>
+                <constraint firstItem="nha-7S-N0a" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="nHd-wH-zzX"/>
+                <constraint firstItem="jpy-aW-n5Q" firstAttribute="trailing" secondItem="nha-7S-N0a" secondAttribute="trailing" id="pE9-Xd-Kac"/>
+                <constraint firstItem="ZdX-W8-10p" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wq3-5F-J3M"/>
+                <constraint firstItem="ZdX-W8-10p" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.6" id="yJy-hd-Ite"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="22.767857142857142" y="76.811594202898561"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CONGRATUlATiONS" width="550" height="56"/>
+        <image name="HOME" width="182.5" height="62"/>
+        <image name="frame_1" width="525.5" height="325"/>
+        <image name="next" width="184" height="63"/>
+    </resources>
+</document>

@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DB919B228E64640028E650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB919A228E64640028E650 /* AppDelegate.m */; };
+		A6DB919E228E64640028E650 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB919D228E64640028E650 /* ViewController.m */; };
+		A6DB91A1228E64640028E650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DB919F228E64640028E650 /* Main.storyboard */; };
+		A6DB91A3228E646D0028E650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DB91A2228E646D0028E650 /* Assets.xcassets */; };
+		A6DB91A9228E646D0028E650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91A8228E646D0028E650 /* main.m */; };
+		A6DB91B3228E646D0028E650 /* MentalWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91B2228E646D0028E650 /* MentalWorkTests.m */; };
+		A6DB91BE228E646D0028E650 /* MentalWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91BD228E646D0028E650 /* MentalWorkUITests.m */; };
+		A6DB91CE228E8E1A0028E650 /* MentalWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91CC228E8E1A0028E650 /* MentalWorkViewController.m */; };
+		A6DB91CF228E8E1A0028E650 /* MentalWorkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DB91CD228E8E1A0028E650 /* MentalWorkViewController.xib */; };
+		A6DB91D1228EA9FF0028E650 /* LevelType.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6DB91D0228EA9FF0028E650 /* LevelType.plist */; };
+		A6DB91D4228EADC30028E650 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91D2228EADC20028E650 /* UIView+Additions.m */; };
+		A6DB91D7228FDFFF0028E650 /* MWTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91D6228FDFFE0028E650 /* MWTimer.m */; };
+		A6DB91DA228FF7000028E650 /* MentalWorkCompleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91D9228FF7000028E650 /* MentalWorkCompleteView.m */; };
+		A6DB91DC228FF7190028E650 /* MentalWorkCompleteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DB91DB228FF7190028E650 /* MentalWorkCompleteView.xib */; };
+		A6DB91DF228FFD660028E650 /* MentalWorkFailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91DE228FFD660028E650 /* MentalWorkFailView.m */; };
+		A6DB91E1228FFD800028E650 /* MentalWorkFailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DB91E0228FFD800028E650 /* MentalWorkFailView.xib */; };
+		A6DB91E42290158B0028E650 /* LevelTimeLimit.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6DB91E32290158B0028E650 /* LevelTimeLimit.plist */; };
+		A6DB91E7229258220028E650 /* MWData.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91E6229258220028E650 /* MWData.m */; };
+		A6DB91EA229296930028E650 /* MentalWorkGameIntruction.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91E9229296930028E650 /* MentalWorkGameIntruction.m */; };
+		A6DB91EC229296B60028E650 /* MentalWorlkGameInstuction.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DB91EB229296B60028E650 /* MentalWorlkGameInstuction.xib */; };
+		A6DB91EF2292987F0028E650 /* MentalWorkBGMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91EE2292987F0028E650 /* MentalWorkBGMusic.m */; };
+		A6DB91F2229298900028E650 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DB91F1229298900028E650 /* AVFoundation.framework */; };
+		A6DB91F52292B7FF0028E650 /* MentalWorkGameAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91F42292B7FF0028E650 /* MentalWorkGameAreaView.m */; };
+		A6DB91F82293A6FD0028E650 /* MWGameDataProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB91F72293A6FC0028E650 /* MWGameDataProcessing.m */; };
+		A6DB91FA2293CDF80028E650 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DB91F92293CDF70028E650 /* bgm.mp3 */; };
+		A6DB91FF2293D8010028E650 /* MentalWorkHelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DB91FE2293D8010028E650 /* MentalWorkHelpView.xib */; };
+		A6DB92042293D98C0028E650 /* MentalWorkSettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DB92032293D98C0028E650 /* MentalWorkSettingView.xib */; };
+		A6DB920B2293E6D80028E650 /* MentalWorkSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB92092293E6D80028E650 /* MentalWorkSettingView.m */; };
+		A6DB920F2294E5C10028E650 /* UIButton+ExpandHotZone.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB920E2294E5C10028E650 /* UIButton+ExpandHotZone.m */; };
+		A6DB92182294EC690028E650 /* MentalWorkHelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB92172294EC690028E650 /* MentalWorkHelpView.m */; };
+		A6DB921C229529850028E650 /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DB921A229529840028E650 /* fail.mp3 */; };
+		A6DB921D229529850028E650 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DB921B229529840028E650 /* success.mp3 */; };
+		A6DB922022955A120028E650 /* BYSystemVolum.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB921F22955A120028E650 /* BYSystemVolum.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6DB91AF228E646D0028E650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6DB918E228E64640028E650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6DB9195228E64640028E650;
+			remoteInfo = MentalWork;
+		};
+		A6DB91BA228E646D0028E650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6DB918E228E64640028E650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6DB9195228E64640028E650;
+			remoteInfo = MentalWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6DB9196228E64640028E650 /* MentalWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DB9199228E64640028E650 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6DB919A228E64640028E650 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6DB919C228E64640028E650 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6DB919D228E64640028E650 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6DB91A0228E64640028E650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6DB91A2228E646D0028E650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6DB91A5228E646D0028E650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6DB91A7228E646D0028E650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DB91A8228E646D0028E650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6DB91AE228E646D0028E650 /* MentalWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DB91B2228E646D0028E650 /* MentalWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalWorkTests.m; sourceTree = "<group>"; };
+		A6DB91B4228E646D0028E650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DB91B9228E646D0028E650 /* MentalWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DB91BD228E646D0028E650 /* MentalWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalWorkUITests.m; sourceTree = "<group>"; };
+		A6DB91BF228E646D0028E650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DB91CB228E8E1A0028E650 /* MentalWorkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalWorkViewController.h; sourceTree = "<group>"; };
+		A6DB91CC228E8E1A0028E650 /* MentalWorkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalWorkViewController.m; sourceTree = "<group>"; };
+		A6DB91CD228E8E1A0028E650 /* MentalWorkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentalWorkViewController.xib; sourceTree = "<group>"; };
+		A6DB91D0228EA9FF0028E650 /* LevelType.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LevelType.plist; sourceTree = "<group>"; };
+		A6DB91D2228EADC20028E650 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		A6DB91D3228EADC30028E650 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		A6DB91D5228FDFFE0028E650 /* MWTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWTimer.h; sourceTree = "<group>"; };
+		A6DB91D6228FDFFE0028E650 /* MWTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWTimer.m; sourceTree = "<group>"; };
+		A6DB91D8228FF7000028E650 /* MentalWorkCompleteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalWorkCompleteView.h; sourceTree = "<group>"; };
+		A6DB91D9228FF7000028E650 /* MentalWorkCompleteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalWorkCompleteView.m; sourceTree = "<group>"; };
+		A6DB91DB228FF7190028E650 /* MentalWorkCompleteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentalWorkCompleteView.xib; sourceTree = "<group>"; };
+		A6DB91DD228FFD660028E650 /* MentalWorkFailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalWorkFailView.h; sourceTree = "<group>"; };
+		A6DB91DE228FFD660028E650 /* MentalWorkFailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalWorkFailView.m; sourceTree = "<group>"; };
+		A6DB91E0228FFD800028E650 /* MentalWorkFailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentalWorkFailView.xib; sourceTree = "<group>"; };
+		A6DB91E2229002E80028E650 /* MentalWorkGameResultDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalWorkGameResultDelegate.h; sourceTree = "<group>"; };
+		A6DB91E32290158B0028E650 /* LevelTimeLimit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LevelTimeLimit.plist; sourceTree = "<group>"; };
+		A6DB91E5229258220028E650 /* MWData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWData.h; sourceTree = "<group>"; };
+		A6DB91E6229258220028E650 /* MWData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWData.m; sourceTree = "<group>"; };
+		A6DB91E8229296930028E650 /* MentalWorkGameIntruction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalWorkGameIntruction.h; sourceTree = "<group>"; };
+		A6DB91E9229296930028E650 /* MentalWorkGameIntruction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalWorkGameIntruction.m; sourceTree = "<group>"; };
+		A6DB91EB229296B60028E650 /* MentalWorlkGameInstuction.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentalWorlkGameInstuction.xib; sourceTree = "<group>"; };
+		A6DB91ED2292987F0028E650 /* MentalWorkBGMusic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalWorkBGMusic.h; sourceTree = "<group>"; };
+		A6DB91EE2292987F0028E650 /* MentalWorkBGMusic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalWorkBGMusic.m; sourceTree = "<group>"; };
+		A6DB91F1229298900028E650 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A6DB91F32292B7FF0028E650 /* MentalWorkGameAreaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalWorkGameAreaView.h; sourceTree = "<group>"; };
+		A6DB91F42292B7FF0028E650 /* MentalWorkGameAreaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalWorkGameAreaView.m; sourceTree = "<group>"; };
+		A6DB91F62293A6FC0028E650 /* MWGameDataProcessing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWGameDataProcessing.h; sourceTree = "<group>"; };
+		A6DB91F72293A6FC0028E650 /* MWGameDataProcessing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWGameDataProcessing.m; sourceTree = "<group>"; };
+		A6DB91F92293CDF70028E650 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		A6DB91FE2293D8010028E650 /* MentalWorkHelpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentalWorkHelpView.xib; sourceTree = "<group>"; };
+		A6DB92032293D98C0028E650 /* MentalWorkSettingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentalWorkSettingView.xib; sourceTree = "<group>"; };
+		A6DB92092293E6D80028E650 /* MentalWorkSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MentalWorkSettingView.m; sourceTree = "<group>"; };
+		A6DB920A2293E6D80028E650 /* MentalWorkSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MentalWorkSettingView.h; sourceTree = "<group>"; };
+		A6DB920C2293EE180028E650 /* ViewinRootVCHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewinRootVCHeader.h; sourceTree = "<group>"; };
+		A6DB920D2294E5BF0028E650 /* UIButton+ExpandHotZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ExpandHotZone.h"; sourceTree = "<group>"; };
+		A6DB920E2294E5C10028E650 /* UIButton+ExpandHotZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ExpandHotZone.m"; sourceTree = "<group>"; };
+		A6DB92162294EC690028E650 /* MentalWorkHelpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentalWorkHelpView.h; sourceTree = "<group>"; };
+		A6DB92172294EC690028E650 /* MentalWorkHelpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalWorkHelpView.m; sourceTree = "<group>"; };
+		A6DB921A229529840028E650 /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fail.mp3; sourceTree = "<group>"; };
+		A6DB921B229529840028E650 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
+		A6DB921E22955A120028E650 /* BYSystemVolum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYSystemVolum.h; sourceTree = "<group>"; };
+		A6DB921F22955A120028E650 /* BYSystemVolum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYSystemVolum.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DB9193228E64640028E650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DB91F2229298900028E650 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DB91AB228E646D0028E650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DB91B6228E646D0028E650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6DB918D228E64640028E650 = {
+			isa = PBXGroup;
+			children = (
+				A6DB9198228E64640028E650 /* MentalWork */,
+				A6DB91B1228E646D0028E650 /* MentalWorkTests */,
+				A6DB91BC228E646D0028E650 /* MentalWorkUITests */,
+				A6DB9197228E64640028E650 /* Products */,
+				A6DB91F02292988F0028E650 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6DB9197228E64640028E650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DB9196228E64640028E650 /* MentalWork.app */,
+				A6DB91AE228E646D0028E650 /* MentalWorkTests.xctest */,
+				A6DB91B9228E646D0028E650 /* MentalWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DB9198228E64640028E650 /* MentalWork */ = {
+			isa = PBXGroup;
+			children = (
+				A6DB9219229529840028E650 /* MentalWorkMusic */,
+				A6DB91F92293CDF70028E650 /* bgm.mp3 */,
+				A6DB91D3228EADC30028E650 /* UIView+Additions.h */,
+				A6DB91D2228EADC20028E650 /* UIView+Additions.m */,
+				A6DB920D2294E5BF0028E650 /* UIButton+ExpandHotZone.h */,
+				A6DB920E2294E5C10028E650 /* UIButton+ExpandHotZone.m */,
+				A6DB921E22955A120028E650 /* BYSystemVolum.h */,
+				A6DB921F22955A120028E650 /* BYSystemVolum.m */,
+				A6DB9199228E64640028E650 /* AppDelegate.h */,
+				A6DB919A228E64640028E650 /* AppDelegate.m */,
+				A6DB919C228E64640028E650 /* ViewController.h */,
+				A6DB919D228E64640028E650 /* ViewController.m */,
+				A6DB919F228E64640028E650 /* Main.storyboard */,
+				A6DB91CB228E8E1A0028E650 /* MentalWorkViewController.h */,
+				A6DB91CC228E8E1A0028E650 /* MentalWorkViewController.m */,
+				A6DB91CD228E8E1A0028E650 /* MentalWorkViewController.xib */,
+				A6DB92052293DA1D0028E650 /* ViewinRootVC */,
+				A6DB91E8229296930028E650 /* MentalWorkGameIntruction.h */,
+				A6DB91E9229296930028E650 /* MentalWorkGameIntruction.m */,
+				A6DB91EB229296B60028E650 /* MentalWorlkGameInstuction.xib */,
+				A6DB91D8228FF7000028E650 /* MentalWorkCompleteView.h */,
+				A6DB91D9228FF7000028E650 /* MentalWorkCompleteView.m */,
+				A6DB91DB228FF7190028E650 /* MentalWorkCompleteView.xib */,
+				A6DB91DD228FFD660028E650 /* MentalWorkFailView.h */,
+				A6DB91DE228FFD660028E650 /* MentalWorkFailView.m */,
+				A6DB91E0228FFD800028E650 /* MentalWorkFailView.xib */,
+				A6DB91E2229002E80028E650 /* MentalWorkGameResultDelegate.h */,
+				A6DB91F32292B7FF0028E650 /* MentalWorkGameAreaView.h */,
+				A6DB91F42292B7FF0028E650 /* MentalWorkGameAreaView.m */,
+				A6DB91D5228FDFFE0028E650 /* MWTimer.h */,
+				A6DB91D6228FDFFE0028E650 /* MWTimer.m */,
+				A6DB91E5229258220028E650 /* MWData.h */,
+				A6DB91E6229258220028E650 /* MWData.m */,
+				A6DB91F62293A6FC0028E650 /* MWGameDataProcessing.h */,
+				A6DB91F72293A6FC0028E650 /* MWGameDataProcessing.m */,
+				A6DB91ED2292987F0028E650 /* MentalWorkBGMusic.h */,
+				A6DB91EE2292987F0028E650 /* MentalWorkBGMusic.m */,
+				A6DB91D0228EA9FF0028E650 /* LevelType.plist */,
+				A6DB91E32290158B0028E650 /* LevelTimeLimit.plist */,
+				A6DB91A2228E646D0028E650 /* Assets.xcassets */,
+				A6DB91A4228E646D0028E650 /* LaunchScreen.storyboard */,
+				A6DB91A7228E646D0028E650 /* Info.plist */,
+				A6DB91A8228E646D0028E650 /* main.m */,
+			);
+			path = MentalWork;
+			sourceTree = "<group>";
+		};
+		A6DB91B1228E646D0028E650 /* MentalWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6DB91B2228E646D0028E650 /* MentalWorkTests.m */,
+				A6DB91B4228E646D0028E650 /* Info.plist */,
+			);
+			path = MentalWorkTests;
+			sourceTree = "<group>";
+		};
+		A6DB91BC228E646D0028E650 /* MentalWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6DB91BD228E646D0028E650 /* MentalWorkUITests.m */,
+				A6DB91BF228E646D0028E650 /* Info.plist */,
+			);
+			path = MentalWorkUITests;
+			sourceTree = "<group>";
+		};
+		A6DB91F02292988F0028E650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6DB91F1229298900028E650 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DB92052293DA1D0028E650 /* ViewinRootVC */ = {
+			isa = PBXGroup;
+			children = (
+				A6DB92162294EC690028E650 /* MentalWorkHelpView.h */,
+				A6DB92172294EC690028E650 /* MentalWorkHelpView.m */,
+				A6DB91FE2293D8010028E650 /* MentalWorkHelpView.xib */,
+				A6DB920A2293E6D80028E650 /* MentalWorkSettingView.h */,
+				A6DB92092293E6D80028E650 /* MentalWorkSettingView.m */,
+				A6DB92032293D98C0028E650 /* MentalWorkSettingView.xib */,
+				A6DB920C2293EE180028E650 /* ViewinRootVCHeader.h */,
+			);
+			path = ViewinRootVC;
+			sourceTree = "<group>";
+		};
+		A6DB9219229529840028E650 /* MentalWorkMusic */ = {
+			isa = PBXGroup;
+			children = (
+				A6DB921A229529840028E650 /* fail.mp3 */,
+				A6DB921B229529840028E650 /* success.mp3 */,
+			);
+			path = MentalWorkMusic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DB9195228E64640028E650 /* MentalWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DB91C2228E646D0028E650 /* Build configuration list for PBXNativeTarget "MentalWork" */;
+			buildPhases = (
+				A6DB9192228E64640028E650 /* Sources */,
+				A6DB9193228E64640028E650 /* Frameworks */,
+				A6DB9194228E64640028E650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MentalWork;
+			productName = MentalWork;
+			productReference = A6DB9196228E64640028E650 /* MentalWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6DB91AD228E646D0028E650 /* MentalWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DB91C5228E646D0028E650 /* Build configuration list for PBXNativeTarget "MentalWorkTests" */;
+			buildPhases = (
+				A6DB91AA228E646D0028E650 /* Sources */,
+				A6DB91AB228E646D0028E650 /* Frameworks */,
+				A6DB91AC228E646D0028E650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6DB91B0228E646D0028E650 /* PBXTargetDependency */,
+			);
+			name = MentalWorkTests;
+			productName = MentalWorkTests;
+			productReference = A6DB91AE228E646D0028E650 /* MentalWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6DB91B8228E646D0028E650 /* MentalWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DB91C8228E646D0028E650 /* Build configuration list for PBXNativeTarget "MentalWorkUITests" */;
+			buildPhases = (
+				A6DB91B5228E646D0028E650 /* Sources */,
+				A6DB91B6228E646D0028E650 /* Frameworks */,
+				A6DB91B7228E646D0028E650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6DB91BB228E646D0028E650 /* PBXTargetDependency */,
+			);
+			name = MentalWorkUITests;
+			productName = MentalWorkUITests;
+			productReference = A6DB91B9228E646D0028E650 /* MentalWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DB918E228E64640028E650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = HC16;
+				TargetAttributes = {
+					A6DB9195228E64640028E650 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A6DB91AD228E646D0028E650 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A6DB9195228E64640028E650;
+					};
+					A6DB91B8228E646D0028E650 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A6DB9195228E64640028E650;
+					};
+				};
+			};
+			buildConfigurationList = A6DB9191228E64640028E650 /* Build configuration list for PBXProject "MentalWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6DB918D228E64640028E650;
+			productRefGroup = A6DB9197228E64640028E650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DB9195228E64640028E650 /* MentalWork */,
+				A6DB91AD228E646D0028E650 /* MentalWorkTests */,
+				A6DB91B8228E646D0028E650 /* MentalWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DB9194228E64640028E650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DB91CF228E8E1A0028E650 /* MentalWorkViewController.xib in Resources */,
+				A6DB91E1228FFD800028E650 /* MentalWorkFailView.xib in Resources */,
+				A6DB921C229529850028E650 /* fail.mp3 in Resources */,
+				A6DB91DC228FF7190028E650 /* MentalWorkCompleteView.xib in Resources */,
+				A6DB91D1228EA9FF0028E650 /* LevelType.plist in Resources */,
+				A6DB91E42290158B0028E650 /* LevelTimeLimit.plist in Resources */,
+				A6DB91EC229296B60028E650 /* MentalWorlkGameInstuction.xib in Resources */,
+				A6DB91A3228E646D0028E650 /* Assets.xcassets in Resources */,
+				A6DB91A1228E64640028E650 /* Main.storyboard in Resources */,
+				A6DB921D229529850028E650 /* success.mp3 in Resources */,
+				A6DB91FA2293CDF80028E650 /* bgm.mp3 in Resources */,
+				A6DB91FF2293D8010028E650 /* MentalWorkHelpView.xib in Resources */,
+				A6DB92042293D98C0028E650 /* MentalWorkSettingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DB91AC228E646D0028E650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DB91B7228E646D0028E650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DB9192228E64640028E650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DB920B2293E6D80028E650 /* MentalWorkSettingView.m in Sources */,
+				A6DB91CE228E8E1A0028E650 /* MentalWorkViewController.m in Sources */,
+				A6DB91EF2292987F0028E650 /* MentalWorkBGMusic.m in Sources */,
+				A6DB91D7228FDFFF0028E650 /* MWTimer.m in Sources */,
+				A6DB91EA229296930028E650 /* MentalWorkGameIntruction.m in Sources */,
+				A6DB91DF228FFD660028E650 /* MentalWorkFailView.m in Sources */,
+				A6DB91E7229258220028E650 /* MWData.m in Sources */,
+				A6DB92182294EC690028E650 /* MentalWorkHelpView.m in Sources */,
+				A6DB919E228E64640028E650 /* ViewController.m in Sources */,
+				A6DB91A9228E646D0028E650 /* main.m in Sources */,
+				A6DB922022955A120028E650 /* BYSystemVolum.m in Sources */,
+				A6DB91F82293A6FD0028E650 /* MWGameDataProcessing.m in Sources */,
+				A6DB91D4228EADC30028E650 /* UIView+Additions.m in Sources */,
+				A6DB91F52292B7FF0028E650 /* MentalWorkGameAreaView.m in Sources */,
+				A6DB919B228E64640028E650 /* AppDelegate.m in Sources */,
+				A6DB91DA228FF7000028E650 /* MentalWorkCompleteView.m in Sources */,
+				A6DB920F2294E5C10028E650 /* UIButton+ExpandHotZone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DB91AA228E646D0028E650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DB91B3228E646D0028E650 /* MentalWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DB91B5228E646D0028E650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DB91BE228E646D0028E650 /* MentalWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6DB91B0228E646D0028E650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6DB9195228E64640028E650 /* MentalWork */;
+			targetProxy = A6DB91AF228E646D0028E650 /* PBXContainerItemProxy */;
+		};
+		A6DB91BB228E646D0028E650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6DB9195228E64640028E650 /* MentalWork */;
+			targetProxy = A6DB91BA228E646D0028E650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6DB919F228E64640028E650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DB91A0228E64640028E650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6DB91A4228E646D0028E650 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DB91A5228E646D0028E650 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DB91C0228E646D0028E650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6DB91C1228E646D0028E650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6DB91C3228E646D0028E650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5R59LNUFH;
+				INFOPLIST_FILE = MentalWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qk.mentalw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A6DB91C4228E646D0028E650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5R59LNUFH;
+				INFOPLIST_FILE = MentalWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qk.mentalw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A6DB91C6228E646D0028E650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MentalWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.b.cleancards.MentalWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MentalWork.app/MentalWork";
+			};
+			name = Debug;
+		};
+		A6DB91C7228E646D0028E650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MentalWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.b.cleancards.MentalWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MentalWork.app/MentalWork";
+			};
+			name = Release;
+		};
+		A6DB91C9228E646D0028E650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MentalWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.b.cleancards.MentalWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MentalWork;
+			};
+			name = Debug;
+		};
+		A6DB91CA228E646D0028E650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MentalWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.b.cleancards.MentalWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MentalWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DB9191228E64640028E650 /* Build configuration list for PBXProject "MentalWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DB91C0228E646D0028E650 /* Debug */,
+				A6DB91C1228E646D0028E650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DB91C2228E646D0028E650 /* Build configuration list for PBXNativeTarget "MentalWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DB91C3228E646D0028E650 /* Debug */,
+				A6DB91C4228E646D0028E650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DB91C5228E646D0028E650 /* Build configuration list for PBXNativeTarget "MentalWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DB91C6228E646D0028E650 /* Debug */,
+				A6DB91C7228E646D0028E650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DB91C8228E646D0028E650 /* Build configuration list for PBXNativeTarget "MentalWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DB91C9228E646D0028E650 /* Debug */,
+				A6DB91CA228E646D0028E650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6DB918E228E64640028E650 /* Project object */;
+}

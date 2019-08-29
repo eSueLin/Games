@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A62AA22A2275B4060017DAB0 /* HLCheckersView.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AA2292275B4060017DAB0 /* HLCheckersView.m */; };
+		A62AA22D2275B7930017DAB0 /* HLYellowCheckerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AA22C2275B7930017DAB0 /* HLYellowCheckerView.m */; };
+		A62AA2302276A3060017DAB0 /* HLWhiteCheckerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AA22F2276A3060017DAB0 /* HLWhiteCheckerView.m */; };
+		A62AA23422771EF20017DAB0 /* HLResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AA23322771EF20017DAB0 /* HLResultView.m */; };
+		A62AA2362277259F0017DAB0 /* HLResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62AA2352277259F0017DAB0 /* HLResultView.xib */; };
+		A62AA239227820B40017DAB0 /* HLCGSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AA238227820B40017DAB0 /* HLCGSuccessView.m */; };
+		A62AA23B227820D90017DAB0 /* HLCGSuccessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62AA23A227820D90017DAB0 /* HLCGSuccessView.xib */; };
+		A62AA23E227834A70017DAB0 /* LHGamePass.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AA23D227834A70017DAB0 /* LHGamePass.m */; };
+		A669BA58227E8BA60034D3C1 /* HLBlueCheckerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A669BA57227E8BA60034D3C1 /* HLBlueCheckerView.m */; };
+		A669BA5B227E8F930034D3C1 /* HLOrangeCheckerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A669BA5A227E8F930034D3C1 /* HLOrangeCheckerView.m */; };
+		A67F67B322716716000E52D5 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F67B122716716000E52D5 /* UIView+Additions.m */; };
+		A67F67B62271B99B000E52D5 /* HLCheckersRules.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F67B52271B99B000E52D5 /* HLCheckersRules.m */; };
+		A67F67BE2271C4EB000E52D5 /* UIImageView+More.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F67BD2271C4EB000E52D5 /* UIImageView+More.m */; };
+		A67F67C12272AC4C000E52D5 /* HLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F67C02272AC4C000E52D5 /* HLBaseViewController.m */; };
+		A67F67C42272B5E8000E52D5 /* HLPinkCheckerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F67C32272B5E8000E52D5 /* HLPinkCheckerView.m */; };
+		A67F67C722758D2F000E52D5 /* HLSecondGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F67C622758D2F000E52D5 /* HLSecondGameView.m */; };
+		A67F67CA22759403000E52D5 /* HLLevelSeclectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F67C922759403000E52D5 /* HLLevelSeclectionView.m */; };
+		A67F67CC227597B7000E52D5 /* HLLevelSeclectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67F67CB227597B7000E52D5 /* HLLevelSeclectionView.xib */; };
+		A67F67CF2275A2DD000E52D5 /* UIButton+ExpandHotZone.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F67CE2275A2DD000E52D5 /* UIButton+ExpandHotZone.m */; };
+		A68717562271485600072D00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A68717552271485600072D00 /* AppDelegate.m */; };
+		A68717592271485600072D00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68717582271485600072D00 /* ViewController.m */; };
+		A687175C2271485600072D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A687175A2271485600072D00 /* Main.storyboard */; };
+		A687175E2271485900072D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A687175D2271485900072D00 /* Assets.xcassets */; };
+		A68717642271485900072D00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A68717632271485900072D00 /* main.m */; };
+		A687176E2271485900072D00 /* HLCheckersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A687176D2271485900072D00 /* HLCheckersTests.m */; };
+		A68717792271485900072D00 /* HLCheckersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A68717782271485900072D00 /* HLCheckersUITests.m */; };
+		A68717882271608F00072D00 /* HLGreenCheckerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68717872271608F00072D00 /* HLGreenCheckerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A687176A2271485900072D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A68717492271485600072D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A68717502271485600072D00;
+			remoteInfo = HLCheckers;
+		};
+		A68717752271485900072D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A68717492271485600072D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A68717502271485600072D00;
+			remoteInfo = HLCheckers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A62AA2282275B4060017DAB0 /* HLCheckersView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLCheckersView.h; sourceTree = "<group>"; };
+		A62AA2292275B4060017DAB0 /* HLCheckersView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCheckersView.m; sourceTree = "<group>"; };
+		A62AA22B2275B7930017DAB0 /* HLYellowCheckerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLYellowCheckerView.h; sourceTree = "<group>"; };
+		A62AA22C2275B7930017DAB0 /* HLYellowCheckerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLYellowCheckerView.m; sourceTree = "<group>"; };
+		A62AA22E2276A3060017DAB0 /* HLWhiteCheckerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLWhiteCheckerView.h; sourceTree = "<group>"; };
+		A62AA22F2276A3060017DAB0 /* HLWhiteCheckerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLWhiteCheckerView.m; sourceTree = "<group>"; };
+		A62AA2312276B4B50017DAB0 /* HLCheckersViewsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLCheckersViewsHeader.h; sourceTree = "<group>"; };
+		A62AA23222771EF20017DAB0 /* HLResultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLResultView.h; sourceTree = "<group>"; };
+		A62AA23322771EF20017DAB0 /* HLResultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLResultView.m; sourceTree = "<group>"; };
+		A62AA2352277259F0017DAB0 /* HLResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLResultView.xib; sourceTree = "<group>"; };
+		A62AA237227820B40017DAB0 /* HLCGSuccessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLCGSuccessView.h; sourceTree = "<group>"; };
+		A62AA238227820B40017DAB0 /* HLCGSuccessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCGSuccessView.m; sourceTree = "<group>"; };
+		A62AA23A227820D90017DAB0 /* HLCGSuccessView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLCGSuccessView.xib; sourceTree = "<group>"; };
+		A62AA23C227834A70017DAB0 /* LHGamePass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHGamePass.h; sourceTree = "<group>"; };
+		A62AA23D227834A70017DAB0 /* LHGamePass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHGamePass.m; sourceTree = "<group>"; };
+		A669BA56227E8BA60034D3C1 /* HLBlueCheckerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLBlueCheckerView.h; sourceTree = "<group>"; };
+		A669BA57227E8BA60034D3C1 /* HLBlueCheckerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLBlueCheckerView.m; sourceTree = "<group>"; };
+		A669BA59227E8F930034D3C1 /* HLOrangeCheckerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLOrangeCheckerView.h; sourceTree = "<group>"; };
+		A669BA5A227E8F930034D3C1 /* HLOrangeCheckerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLOrangeCheckerView.m; sourceTree = "<group>"; };
+		A67F67B122716716000E52D5 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		A67F67B222716716000E52D5 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		A67F67B42271B99B000E52D5 /* HLCheckersRules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLCheckersRules.h; sourceTree = "<group>"; };
+		A67F67B52271B99B000E52D5 /* HLCheckersRules.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCheckersRules.m; sourceTree = "<group>"; };
+		A67F67BB2271C0E5000E52D5 /* HLToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLToolbox.h; sourceTree = "<group>"; };
+		A67F67BC2271C4EB000E52D5 /* UIImageView+More.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+More.h"; sourceTree = "<group>"; };
+		A67F67BD2271C4EB000E52D5 /* UIImageView+More.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+More.m"; sourceTree = "<group>"; };
+		A67F67BF2272AC4C000E52D5 /* HLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLBaseViewController.h; sourceTree = "<group>"; };
+		A67F67C02272AC4C000E52D5 /* HLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLBaseViewController.m; sourceTree = "<group>"; };
+		A67F67C22272B5E8000E52D5 /* HLPinkCheckerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPinkCheckerView.h; sourceTree = "<group>"; };
+		A67F67C32272B5E8000E52D5 /* HLPinkCheckerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPinkCheckerView.m; sourceTree = "<group>"; };
+		A67F67C522758D2F000E52D5 /* HLSecondGameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSecondGameView.h; sourceTree = "<group>"; };
+		A67F67C622758D2F000E52D5 /* HLSecondGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSecondGameView.m; sourceTree = "<group>"; };
+		A67F67C822759403000E52D5 /* HLLevelSeclectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLevelSeclectionView.h; sourceTree = "<group>"; };
+		A67F67C922759403000E52D5 /* HLLevelSeclectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLevelSeclectionView.m; sourceTree = "<group>"; };
+		A67F67CB227597B7000E52D5 /* HLLevelSeclectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLLevelSeclectionView.xib; sourceTree = "<group>"; };
+		A67F67CD2275A2DD000E52D5 /* UIButton+ExpandHotZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ExpandHotZone.h"; sourceTree = "<group>"; };
+		A67F67CE2275A2DD000E52D5 /* UIButton+ExpandHotZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ExpandHotZone.m"; sourceTree = "<group>"; };
+		A68717512271485600072D00 /* happy_draughts .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "happy_draughts .app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68717542271485600072D00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A68717552271485600072D00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A68717572271485600072D00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A68717582271485600072D00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A687175B2271485600072D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A687175D2271485900072D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A68717602271485900072D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A68717622271485900072D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68717632271485900072D00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A68717692271485900072D00 /* happy_draughts Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "happy_draughts Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A687176D2271485900072D00 /* HLCheckersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCheckersTests.m; sourceTree = "<group>"; };
+		A687176F2271485900072D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68717742271485900072D00 /* happy_draughts UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "happy_draughts UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68717782271485900072D00 /* HLCheckersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCheckersUITests.m; sourceTree = "<group>"; };
+		A687177A2271485900072D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68717862271608F00072D00 /* HLGreenCheckerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLGreenCheckerView.h; sourceTree = "<group>"; };
+		A68717872271608F00072D00 /* HLGreenCheckerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLGreenCheckerView.m; sourceTree = "<group>"; };
+		A6D941962285AE3D00E33213 /* HLCheckers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HLCheckers.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A687174E2271485600072D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68717662271485900072D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68717712271485900072D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A67F67B72271C0A9000E52D5 /* HLTool */ = {
+			isa = PBXGroup;
+			children = (
+				A67F67B222716716000E52D5 /* UIView+Additions.h */,
+				A67F67B122716716000E52D5 /* UIView+Additions.m */,
+				A67F67BC2271C4EB000E52D5 /* UIImageView+More.h */,
+				A67F67BD2271C4EB000E52D5 /* UIImageView+More.m */,
+				A67F67BB2271C0E5000E52D5 /* HLToolbox.h */,
+				A67F67CD2275A2DD000E52D5 /* UIButton+ExpandHotZone.h */,
+				A67F67CE2275A2DD000E52D5 /* UIButton+ExpandHotZone.m */,
+			);
+			path = HLTool;
+			sourceTree = "<group>";
+		};
+		A68717482271485600072D00 = {
+			isa = PBXGroup;
+			children = (
+				A68717532271485600072D00 /* HLCheckers */,
+				A687176C2271485900072D00 /* HLCheckersTests */,
+				A68717772271485900072D00 /* HLCheckersUITests */,
+				A68717522271485600072D00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A68717522271485600072D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A68717512271485600072D00 /* happy_draughts .app */,
+				A68717692271485900072D00 /* happy_draughts Tests.xctest */,
+				A68717742271485900072D00 /* happy_draughts UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A68717532271485600072D00 /* HLCheckers */ = {
+			isa = PBXGroup;
+			children = (
+				A6D941962285AE3D00E33213 /* HLCheckers.entitlements */,
+				A6B0FFEF228012CF0084AB6E /* CheckersViews */,
+				A67F67B72271C0A9000E52D5 /* HLTool */,
+				A68717542271485600072D00 /* AppDelegate.h */,
+				A68717552271485600072D00 /* AppDelegate.m */,
+				A68717572271485600072D00 /* ViewController.h */,
+				A68717582271485600072D00 /* ViewController.m */,
+				A67F67C822759403000E52D5 /* HLLevelSeclectionView.h */,
+				A67F67C922759403000E52D5 /* HLLevelSeclectionView.m */,
+				A67F67CB227597B7000E52D5 /* HLLevelSeclectionView.xib */,
+				A67F67BF2272AC4C000E52D5 /* HLBaseViewController.h */,
+				A67F67C02272AC4C000E52D5 /* HLBaseViewController.m */,
+				A62AA23222771EF20017DAB0 /* HLResultView.h */,
+				A62AA23322771EF20017DAB0 /* HLResultView.m */,
+				A62AA2352277259F0017DAB0 /* HLResultView.xib */,
+				A62AA237227820B40017DAB0 /* HLCGSuccessView.h */,
+				A62AA238227820B40017DAB0 /* HLCGSuccessView.m */,
+				A62AA23A227820D90017DAB0 /* HLCGSuccessView.xib */,
+				A62AA23C227834A70017DAB0 /* LHGamePass.h */,
+				A62AA23D227834A70017DAB0 /* LHGamePass.m */,
+				A687175A2271485600072D00 /* Main.storyboard */,
+				A687175D2271485900072D00 /* Assets.xcassets */,
+				A687175F2271485900072D00 /* LaunchScreen.storyboard */,
+				A68717622271485900072D00 /* Info.plist */,
+				A68717632271485900072D00 /* main.m */,
+			);
+			path = HLCheckers;
+			sourceTree = "<group>";
+		};
+		A687176C2271485900072D00 /* HLCheckersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A687176D2271485900072D00 /* HLCheckersTests.m */,
+				A687176F2271485900072D00 /* Info.plist */,
+			);
+			path = HLCheckersTests;
+			sourceTree = "<group>";
+		};
+		A68717772271485900072D00 /* HLCheckersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A68717782271485900072D00 /* HLCheckersUITests.m */,
+				A687177A2271485900072D00 /* Info.plist */,
+			);
+			path = HLCheckersUITests;
+			sourceTree = "<group>";
+		};
+		A6B0FFEF228012CF0084AB6E /* CheckersViews */ = {
+			isa = PBXGroup;
+			children = (
+				A62AA2282275B4060017DAB0 /* HLCheckersView.h */,
+				A62AA2292275B4060017DAB0 /* HLCheckersView.m */,
+				A68717862271608F00072D00 /* HLGreenCheckerView.h */,
+				A68717872271608F00072D00 /* HLGreenCheckerView.m */,
+				A67F67C22272B5E8000E52D5 /* HLPinkCheckerView.h */,
+				A67F67C32272B5E8000E52D5 /* HLPinkCheckerView.m */,
+				A62AA22B2275B7930017DAB0 /* HLYellowCheckerView.h */,
+				A62AA22C2275B7930017DAB0 /* HLYellowCheckerView.m */,
+				A62AA22E2276A3060017DAB0 /* HLWhiteCheckerView.h */,
+				A62AA22F2276A3060017DAB0 /* HLWhiteCheckerView.m */,
+				A669BA56227E8BA60034D3C1 /* HLBlueCheckerView.h */,
+				A669BA57227E8BA60034D3C1 /* HLBlueCheckerView.m */,
+				A669BA59227E8F930034D3C1 /* HLOrangeCheckerView.h */,
+				A669BA5A227E8F930034D3C1 /* HLOrangeCheckerView.m */,
+				A62AA2312276B4B50017DAB0 /* HLCheckersViewsHeader.h */,
+				A67F67C522758D2F000E52D5 /* HLSecondGameView.h */,
+				A67F67C622758D2F000E52D5 /* HLSecondGameView.m */,
+				A67F67B42271B99B000E52D5 /* HLCheckersRules.h */,
+				A67F67B52271B99B000E52D5 /* HLCheckersRules.m */,
+			);
+			path = CheckersViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A68717502271485600072D00 /* happy_draughts  */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A687177D2271485900072D00 /* Build configuration list for PBXNativeTarget "happy_draughts " */;
+			buildPhases = (
+				A687174D2271485600072D00 /* Sources */,
+				A687174E2271485600072D00 /* Frameworks */,
+				A687174F2271485600072D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "happy_draughts ";
+			productName = HLCheckers;
+			productReference = A68717512271485600072D00 /* happy_draughts .app */;
+			productType = "com.apple.product-type.application";
+		};
+		A68717682271485900072D00 /* happy_draughts Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68717802271485900072D00 /* Build configuration list for PBXNativeTarget "happy_draughts Tests" */;
+			buildPhases = (
+				A68717652271485900072D00 /* Sources */,
+				A68717662271485900072D00 /* Frameworks */,
+				A68717672271485900072D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A687176B2271485900072D00 /* PBXTargetDependency */,
+			);
+			name = "happy_draughts Tests";
+			productName = HLCheckersTests;
+			productReference = A68717692271485900072D00 /* happy_draughts Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A68717732271485900072D00 /* happy_draughts UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68717832271485900072D00 /* Build configuration list for PBXNativeTarget "happy_draughts UITests" */;
+			buildPhases = (
+				A68717702271485900072D00 /* Sources */,
+				A68717712271485900072D00 /* Frameworks */,
+				A68717722271485900072D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A68717762271485900072D00 /* PBXTargetDependency */,
+			);
+			name = "happy_draughts UITests";
+			productName = HLCheckersUITests;
+			productReference = A68717742271485900072D00 /* happy_draughts UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A68717492271485600072D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = HC16;
+				TargetAttributes = {
+					A68717502271485600072D00 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					A68717682271485900072D00 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A68717502271485600072D00;
+					};
+					A68717732271485900072D00 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A68717502271485600072D00;
+					};
+				};
+			};
+			buildConfigurationList = A687174C2271485600072D00 /* Build configuration list for PBXProject "HappyDaughts " */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A68717482271485600072D00;
+			productRefGroup = A68717522271485600072D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A68717502271485600072D00 /* happy_draughts  */,
+				A68717682271485900072D00 /* happy_draughts Tests */,
+				A68717732271485900072D00 /* happy_draughts UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A687174F2271485600072D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62AA2362277259F0017DAB0 /* HLResultView.xib in Resources */,
+				A62AA23B227820D90017DAB0 /* HLCGSuccessView.xib in Resources */,
+				A687175E2271485900072D00 /* Assets.xcassets in Resources */,
+				A67F67CC227597B7000E52D5 /* HLLevelSeclectionView.xib in Resources */,
+				A687175C2271485600072D00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68717672271485900072D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68717722271485900072D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A687174D2271485600072D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67F67C722758D2F000E52D5 /* HLSecondGameView.m in Sources */,
+				A68717882271608F00072D00 /* HLGreenCheckerView.m in Sources */,
+				A67F67BE2271C4EB000E52D5 /* UIImageView+More.m in Sources */,
+				A67F67C42272B5E8000E52D5 /* HLPinkCheckerView.m in Sources */,
+				A669BA5B227E8F930034D3C1 /* HLOrangeCheckerView.m in Sources */,
+				A67F67B62271B99B000E52D5 /* HLCheckersRules.m in Sources */,
+				A67F67CA22759403000E52D5 /* HLLevelSeclectionView.m in Sources */,
+				A68717592271485600072D00 /* ViewController.m in Sources */,
+				A62AA239227820B40017DAB0 /* HLCGSuccessView.m in Sources */,
+				A62AA23422771EF20017DAB0 /* HLResultView.m in Sources */,
+				A62AA2302276A3060017DAB0 /* HLWhiteCheckerView.m in Sources */,
+				A67F67CF2275A2DD000E52D5 /* UIButton+ExpandHotZone.m in Sources */,
+				A62AA22D2275B7930017DAB0 /* HLYellowCheckerView.m in Sources */,
+				A62AA23E227834A70017DAB0 /* LHGamePass.m in Sources */,
+				A68717642271485900072D00 /* main.m in Sources */,
+				A669BA58227E8BA60034D3C1 /* HLBlueCheckerView.m in Sources */,
+				A67F67B322716716000E52D5 /* UIView+Additions.m in Sources */,
+				A68717562271485600072D00 /* AppDelegate.m in Sources */,
+				A62AA22A2275B4060017DAB0 /* HLCheckersView.m in Sources */,
+				A67F67C12272AC4C000E52D5 /* HLBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68717652271485900072D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A687176E2271485900072D00 /* HLCheckersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68717702271485900072D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68717792271485900072D00 /* HLCheckersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A687176B2271485900072D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A68717502271485600072D00 /* happy_draughts  */;
+			targetProxy = A687176A2271485900072D00 /* PBXContainerItemProxy */;
+		};
+		A68717762271485900072D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A68717502271485600072D00 /* happy_draughts  */;
+			targetProxy = A68717752271485900072D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A687175A2271485600072D00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A687175B2271485600072D00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A687175F2271485900072D00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68717602271485900072D00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A687177B2271485900072D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A687177C2271485900072D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A687177E2271485900072D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9K9G5GT9VA;
+				INFOPLIST_FILE = HLCheckers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkers.HD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = hdcheckers;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A687177F2271485900072D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9K9G5GT9VA;
+				INFOPLIST_FILE = HLCheckers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkers.HD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = hdcheckers;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A68717812271485900072D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCheckersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzle.ptpt.HLCheckersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happy_draughts .app/happy_draughts ";
+			};
+			name = Debug;
+		};
+		A68717822271485900072D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCheckersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzle.ptpt.HLCheckersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happy_draughts .app/happy_draughts ";
+			};
+			name = Release;
+		};
+		A68717842271485900072D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCheckersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzle.ptpt.HLCheckersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLCheckers;
+			};
+			name = Debug;
+		};
+		A68717852271485900072D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCheckersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzle.ptpt.HLCheckersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLCheckers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A687174C2271485600072D00 /* Build configuration list for PBXProject "HappyDaughts " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A687177B2271485900072D00 /* Debug */,
+				A687177C2271485900072D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A687177D2271485900072D00 /* Build configuration list for PBXNativeTarget "happy_draughts " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A687177E2271485900072D00 /* Debug */,
+				A687177F2271485900072D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68717802271485900072D00 /* Build configuration list for PBXNativeTarget "happy_draughts Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68717812271485900072D00 /* Debug */,
+				A68717822271485900072D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68717832271485900072D00 /* Build configuration list for PBXNativeTarget "happy_draughts UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68717842271485900072D00 /* Debug */,
+				A68717852271485900072D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A68717492271485600072D00 /* Project object */;
+}

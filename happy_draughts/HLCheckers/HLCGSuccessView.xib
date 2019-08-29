@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HLCGSuccessView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HLCGSuccessView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Zw-zc-WRV">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="saa-6Y-beq">
+                    <rect key="frame" x="0.0" y="268.66666666666663" width="414" height="293.66666666666663"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="恭喜获胜" translatesAutoresizingMaskIntoConstraints="NO" id="O9x-XC-R6N">
+                            <rect key="frame" x="0.0" y="7" width="414" height="174.33333333333334"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="O9x-XC-R6N" secondAttribute="height" multiplier="375:158" id="Khi-gF-e6c"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODl-VD-MGp">
+                            <rect key="frame" x="349.33333333333331" y="-11" width="49.666666666666686" height="53.666666666666664"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="ODl-VD-MGp" secondAttribute="height" multiplier="12:13" id="k2T-qS-foM"/>
+                            </constraints>
+                            <state key="normal" image="关闭"/>
+                            <connections>
+                                <action selector="closeView:" destination="-1" eventType="touchUpInside" id="pbe-99-qhI"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCd-yV-FLW">
+                            <rect key="frame" x="21" y="231.99999999999997" width="157.33333333333334" height="61.666666666666657"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="vCd-yV-FLW" secondAttribute="height" multiplier="135:53" id="w2n-v3-Hwc"/>
+                            </constraints>
+                            <state key="normal" image="back"/>
+                            <connections>
+                                <action selector="backtoHomeView:" destination="-1" eventType="touchUpInside" id="49o-f7-0ZG"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Umc-9K-I4Z">
+                            <rect key="frame" x="233.66666666666663" y="231.99999999999997" width="157.33333333333337" height="61.666666666666657"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Umc-9K-I4Z" secondAttribute="height" multiplier="135:53" id="ZdR-7J-4vV"/>
+                            </constraints>
+                            <state key="normal" image="下一关"/>
+                            <connections>
+                                <action selector="enterNextLevel:" destination="-1" eventType="touchUpInside" id="LD4-9c-nYY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Umc-9K-I4Z" firstAttribute="width" secondItem="vCd-yV-FLW" secondAttribute="width" id="4ih-1l-607"/>
+                        <constraint firstAttribute="trailing" secondItem="O9x-XC-R6N" secondAttribute="trailing" id="7d8-o5-h5B"/>
+                        <constraint firstItem="O9x-XC-R6N" firstAttribute="leading" secondItem="saa-6Y-beq" secondAttribute="leading" id="AbW-Hw-tV3"/>
+                        <constraint firstItem="ODl-VD-MGp" firstAttribute="top" secondItem="saa-6Y-beq" secondAttribute="top" constant="-11" id="Bgn-7a-NHI"/>
+                        <constraint firstAttribute="width" secondItem="saa-6Y-beq" secondAttribute="height" multiplier="375:266" id="CpJ-f4-ZL4"/>
+                        <constraint firstItem="O9x-XC-R6N" firstAttribute="top" secondItem="saa-6Y-beq" secondAttribute="top" constant="7" id="GdV-N9-D7d"/>
+                        <constraint firstAttribute="trailing" secondItem="ODl-VD-MGp" secondAttribute="trailing" constant="15" id="Rpj-fW-OOK"/>
+                        <constraint firstAttribute="trailing" secondItem="Umc-9K-I4Z" secondAttribute="trailing" constant="23" id="Ugp-md-Ik6"/>
+                        <constraint firstAttribute="bottom" secondItem="vCd-yV-FLW" secondAttribute="bottom" id="Vig-sR-cU3"/>
+                        <constraint firstAttribute="bottom" secondItem="Umc-9K-I4Z" secondAttribute="bottom" id="XU1-pH-XSU"/>
+                        <constraint firstItem="ODl-VD-MGp" firstAttribute="width" secondItem="saa-6Y-beq" secondAttribute="width" multiplier="0.12" id="fzJ-7F-aqE"/>
+                        <constraint firstItem="O9x-XC-R6N" firstAttribute="width" secondItem="saa-6Y-beq" secondAttribute="width" id="mAD-D1-G1V"/>
+                        <constraint firstItem="vCd-yV-FLW" firstAttribute="leading" secondItem="saa-6Y-beq" secondAttribute="leading" constant="21" id="mRH-Um-qif"/>
+                        <constraint firstItem="vCd-yV-FLW" firstAttribute="width" secondItem="saa-6Y-beq" secondAttribute="width" multiplier="0.38" id="zTu-K2-dig"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="2Zw-zc-WRV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5F8-6t-biQ"/>
+                <constraint firstItem="2Zw-zc-WRV" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="60R-8k-b6r"/>
+                <constraint firstItem="2Zw-zc-WRV" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="MET-Eo-DPX"/>
+                <constraint firstItem="saa-6Y-beq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dNy-xO-qiU"/>
+                <constraint firstItem="saa-6Y-beq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-32.5" id="hOl-Kl-bg0"/>
+                <constraint firstItem="saa-6Y-beq" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="q9k-SQ-Occ"/>
+                <constraint firstItem="2Zw-zc-WRV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="r7y-Rl-wdE"/>
+                <constraint firstItem="saa-6Y-beq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ylj-at-Aec"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="135.66667175292969" height="53"/>
+        <image name="下一关" width="135" height="53.666667938232422"/>
+        <image name="关闭" width="48.666667938232422" height="52.333332061767578"/>
+        <image name="恭喜获胜" width="374" height="159"/>
+    </resources>
+</document>

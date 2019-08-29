@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LYGameOverView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iQx-fQ-a8C">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x6k-9d-26c" userLabel="tipView">
+                    <rect key="frame" x="41.333333333333343" y="347.66666666666669" width="331.33333333333326" height="200.66666666666669"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tip_di" translatesAutoresizingMaskIntoConstraints="NO" id="11z-gt-MzL">
+                            <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="200.66666666666666"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TIMEOUTGAMEOVER" translatesAutoresizingMaskIntoConstraints="NO" id="85r-AU-wL0">
+                            <rect key="frame" x="33.333333333333343" y="39.999999999999993" width="264.66666666666663" height="72.333333333333314"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="85r-AU-wL0" secondAttribute="height" multiplier="11:3" id="qXv-Ic-nJg"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4n-xo-new" userLabel="Close_btn">
+                            <rect key="frame" x="295.66666666666669" y="8" width="23" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Y4n-xo-new" secondAttribute="height" multiplier="1:1" id="v23-93-cht"/>
+                            </constraints>
+                            <state key="normal" image="button_close"/>
+                            <connections>
+                                <action selector="exitGame:" destination="iN0-l3-epB" eventType="touchUpInside" id="99W-Cn-23g"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Td-gp-34N">
+                            <rect key="frame" x="42" y="132.33333333333331" width="106" height="40.666666666666657"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="1Td-gp-34N" secondAttribute="height" multiplier="115:44" id="3XA-Tq-oV3"/>
+                            </constraints>
+                            <state key="normal" image="HOME" backgroundImage="button_di_bule"/>
+                            <connections>
+                                <action selector="exitGame:" destination="iN0-l3-epB" eventType="touchUpInside" id="AY4-Lw-6et"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1iD-oH-lrI">
+                            <rect key="frame" x="185.33333333333331" y="132.33333333333331" width="106" height="40.666666666666657"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="1iD-oH-lrI" secondAttribute="height" multiplier="115:44" id="BRa-JQ-T7Y"/>
+                            </constraints>
+                            <state key="normal" image="ONEMORE" backgroundImage="button_di_yellow"/>
+                            <connections>
+                                <action selector="replayGame:" destination="iN0-l3-epB" eventType="touchUpInside" id="saJ-pm-LES"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="11z-gt-MzL" firstAttribute="leading" secondItem="x6k-9d-26c" secondAttribute="leading" id="5Pd-aI-tMa"/>
+                        <constraint firstAttribute="bottom" secondItem="11z-gt-MzL" secondAttribute="bottom" id="6B3-PM-sXE"/>
+                        <constraint firstAttribute="trailing" secondItem="Y4n-xo-new" secondAttribute="trailing" multiplier="1.04" id="ApJ-ez-SnI"/>
+                        <constraint firstItem="1Td-gp-34N" firstAttribute="width" secondItem="85r-AU-wL0" secondAttribute="width" multiplier="0.4" id="Ckl-Q5-IOa"/>
+                        <constraint firstItem="85r-AU-wL0" firstAttribute="centerX" secondItem="x6k-9d-26c" secondAttribute="centerX" id="Kmj-aM-2tr"/>
+                        <constraint firstAttribute="trailing" secondItem="1iD-oH-lrI" secondAttribute="trailing" constant="40" id="Ksq-bz-WpV"/>
+                        <constraint firstItem="11z-gt-MzL" firstAttribute="height" secondItem="x6k-9d-26c" secondAttribute="height" id="MwB-PE-bBg"/>
+                        <constraint firstAttribute="trailing" secondItem="11z-gt-MzL" secondAttribute="trailing" id="S3K-f0-mOr"/>
+                        <constraint firstItem="1iD-oH-lrI" firstAttribute="width" secondItem="1Td-gp-34N" secondAttribute="width" id="Znb-TF-XhQ"/>
+                        <constraint firstItem="1Td-gp-34N" firstAttribute="leading" secondItem="x6k-9d-26c" secondAttribute="leading" constant="42" id="bDH-h6-wtA"/>
+                        <constraint firstItem="85r-AU-wL0" firstAttribute="top" secondItem="Y4n-xo-new" secondAttribute="top" constant="32" id="bl8-f3-Cp1"/>
+                        <constraint firstItem="1iD-oH-lrI" firstAttribute="top" secondItem="85r-AU-wL0" secondAttribute="bottom" multiplier="1.18" id="e4q-GA-OaL"/>
+                        <constraint firstAttribute="width" secondItem="x6k-9d-26c" secondAttribute="height" multiplier="33:20" id="f32-Yg-Wok"/>
+                        <constraint firstItem="Y4n-xo-new" firstAttribute="top" secondItem="x6k-9d-26c" secondAttribute="top" constant="8" id="nHn-y4-mLq"/>
+                        <constraint firstItem="11z-gt-MzL" firstAttribute="top" secondItem="x6k-9d-26c" secondAttribute="top" id="nmF-13-a8S"/>
+                        <constraint firstItem="11z-gt-MzL" firstAttribute="width" secondItem="x6k-9d-26c" secondAttribute="width" id="qRe-eE-xL4"/>
+                        <constraint firstItem="85r-AU-wL0" firstAttribute="width" secondItem="11z-gt-MzL" secondAttribute="width" multiplier="0.8" id="qpE-yi-Hmn"/>
+                        <constraint firstItem="1Td-gp-34N" firstAttribute="top" secondItem="85r-AU-wL0" secondAttribute="bottom" multiplier="1.18" id="rlH-lW-jme"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="leading" secondItem="iQx-fQ-a8C" secondAttribute="leading" id="2K5-EK-fzI"/>
+                <constraint firstItem="x6k-9d-26c" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="7Z0-Sv-eFB"/>
+                <constraint firstItem="iQx-fQ-a8C" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GU7-Dt-Emf"/>
+                <constraint firstItem="iQx-fQ-a8C" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="WfI-CY-Zqv"/>
+                <constraint firstAttribute="bottom" secondItem="iQx-fQ-a8C" secondAttribute="bottom" id="ZBd-nb-zVB"/>
+                <constraint firstAttribute="trailing" secondItem="iQx-fQ-a8C" secondAttribute="trailing" id="eyr-0J-nfg"/>
+                <constraint firstItem="iQx-fQ-a8C" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="h5I-mn-Jhm"/>
+                <constraint firstItem="x6k-9d-26c" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="lJz-ui-eZc"/>
+                <constraint firstItem="x6k-9d-26c" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="sG1-QJ-jPs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="153.34821428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="HOME" width="57" height="15.333333015441895"/>
+        <image name="ONEMORE" width="97" height="14.333333015441895"/>
+        <image name="TIMEOUTGAMEOVER" width="186" height="57.333332061767578"/>
+        <image name="button_close" width="23.666666030883789" height="23.666666030883789"/>
+        <image name="button_di_bule" width="115" height="44.666667938232422"/>
+        <image name="button_di_yellow" width="115" height="44.666667938232422"/>
+        <image name="tip_di" width="318.33334350585938" height="193.33332824707031"/>
+    </resources>
+</document>
